@@ -1,5 +1,8 @@
 <script setup lang='ts'>
+import renderMathInElement from 'katex/contrib/auto-render'
 import { formatDate } from '~/logics'
+
+import 'katex/dist/katex.min.css'
 
 const { frontmatter } = defineProps({
   frontmatter: {
@@ -7,6 +10,16 @@ const { frontmatter } = defineProps({
     required: true,
   },
 })
+
+function renderLatexInContent(el: HTMLElement) {
+  if (!el)
+    return
+
+  // eslint-disable-next-line ts/no-use-before-define
+  renderMathInElement(content.value, {
+    throwOnError: false,
+  })
+}
 
 const router = useRouter()
 const route = useRoute()
@@ -18,6 +31,11 @@ const elkUrl = computed(() => `https://elk.zone/intent/post?text=${encodeURIComp
 const blueskyUrl = computed(() => `https://bsky.app/intent/compose?text=${encodeURIComponent(`Reading @antfu.me ${base}${route.path}\n\nI think...`)}`)
 
 onMounted(() => {
+  // Render LaTex
+  if (content.value) {
+    renderLatexInContent(content.value)
+  }
+
   const navigate = () => {
     if (location.hash) {
       const el = document.querySelector(decodeURIComponent(location.hash))
@@ -152,7 +170,7 @@ const ArtComponent = computed(() => {
     <RouterLink
       :to="route.path.split('/').slice(0, -1).join('/') || '/'"
       class="font-mono op50 hover:op75"
-      v-text="'cd ..'"
+      v-text="'return ..'"
     />
   </div>
 </template>

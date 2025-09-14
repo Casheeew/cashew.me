@@ -1,5 +1,7 @@
 packages: []
 
+catalog:
+  katex: ^0.16.22
 catalogs:
   build:
     '@shikijs/markdown-it': ^3.12.2
