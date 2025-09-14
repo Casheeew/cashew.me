@@ -4,16 +4,17 @@ display: Media Consumption
 description: Son's Media Consumption
 ---
 
-Work in progress ...
+<AsuBackground />
 
-<!-- One's life span is around 29,000 days, or 696,000 hours.
-Media consumption is a rather large chunk of my life,
-that more or less shapes the view I have today.
-While we can't live every lifestyle we dream of or experience everything we desire,
-media offers us a window into different stories and ways of life.
+<div class="font-semibold">
 
-I wanted to list them out, for myself, for share, or just for the record.
+Welcome to my little alcove where memories stay.
+What you’ll find here is a scrap-book of every piece of media I've encountered, or at least the ones I still remember.
+
+This background image is from 凪の明日から---although I haven't had the chance to watch it.
+
+</div>
 
 <MediaConsumption />
 
-<div class="op50 mt-10">These are ones I enjoyed, not exhaustive. And not necessarily recommendations.</div> -->
+<div class="op50 mt-10">These are ones I enjoyed, not exhaustive. And not necessarily recommendations.</div>
