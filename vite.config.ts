@@ -30,7 +30,7 @@ import { slugify } from './scripts/slugify'
 const promises: Promise<any>[] = []
 
 export default defineConfig({
-  base: '/cashew.me/',
+  // base: '/cashew.me/',
   resolve: {
     alias: [
       { find: '~/', replacement: `${resolve(__dirname, 'src')}/` },
