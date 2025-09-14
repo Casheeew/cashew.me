@@ -28,10 +28,11 @@ My passion lies in bringing creative ideas to life. I love building tools that e
 I'm proficient in `English`, <ruby lang="vi">`Tiếng Việt`<rp>(</rp><rt>Vietnamese</rt><rp>)</rp></ruby>, <ruby lang="ja">`日本語`<rp>(</rp><rt>Japanese</rt><rp>)</rp></ruby>, and can read and write reasonably well in <ruby>`한국어`<rp>(</rp><rt>Korean</rt><rp>)</rp></ruby> and <ruby>`中文`<rp>(</rp><rt>Chinese</rt><rp>)</rp></ruby>。 [Reach out to me](#contacts) in any of the languages above!
 
 > <div font-mono>RECENT NEWS</div>
-> <small><b>Sep 2025</b> | A paper is submitted to {CHI 2026}!</small> <br>
-> <small><b>Sep 2025</b> | {Yomitan} has officially been featured by <span op75 i-simple-icons-firefox /> Mozilla!</small> <br>
-> <small><b>Jun 2025</b> | I'm starting my journey as an undergraduate researcher for {HCI Tech Lab}.</small> <br>
-> <small><b>Jun 2025</b> | {Yomitan} reached 100,000 active users on all platforms! [reddit post](https://www.reddit.com/r/LearnJapanese/comments/1l7fdt7/yomitan_a_popup_dictionary_for_language_learning/)</small> <br>
+
+<small><b>Sep 2025</b> | A paper is submitted to {CHI 2026}!</small> <br>
+<small><b>Sep 2025</b> | {Yomitan} has officially been featured by <span op75 i-simple-icons-firefox /> Mozilla!</small> <br>
+<small><b>Jun 2025</b> | I'm starting my journey as an undergraduate researcher for {HCI Tech Lab}.</small> <br>
+<small><b>Jun 2025</b> | {Yomitan} reached 100,000 active users on all platforms! [reddit post](https://www.reddit.com/r/LearnJapanese/comments/1l7fdt7/yomitan_a_popup_dictionary_for_language_learning/)</small> <br>
 
 ---
 
