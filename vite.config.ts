@@ -126,8 +126,12 @@ export default defineConfig({
 
         md.use(MarkdownItMagicLink, {
           linksMap: {
-            'NuxtLabs': { link: 'https://nuxtlabs.com', imageUrl: 'https://nuxtlabs.com/nuxt.png' },
-            'Vitest': 'https://github.com/vitest-dev/vitest',
+            'HCI Tech Lab': { link: 'https://hcitech.org', imageUrl: 'https://i.postimg.cc/0yRnbRfx/HCITech.png' },
+            'KAIST': { link: 'https://www.kaist.ac.kr/en/html/kaist/01.html', imageUrl: 'https://i.postimg.cc/tC3LD573/emblem2.gif' },
+            'AiGlow': { link: 'https://www.linkedin.com/company/aiglowedu/', imageUrl: 'https://media.licdn.com/dms/image/v2/D560BAQEg9ciHhdliBA/company-logo_200_200/B56ZfWmoXbHEAI-/0/1751652141428/aiglowedu_logo?e=1760572800&v=beta&t=0_3bb-_8eupMgjebvR0M7OVfKzSj7Gb2_BScfxByADk' },
+            'Yomitan': 'https://github.com/yomidevs/yomitan',
+            'Yomitan Wiki': 'https://github.com/yomidevs/yomitan-wiki',
+            'CHI 2026': { link: 'https://chi2026.acm.org/', imageUrl: 'https://chi2026.acm.org/wordpress/wp-content/uploads/2024/09/chi-banner-full.png' },
             'Slidev': 'https://github.com/slidevjs/slidev',
             'VueUse': 'https://github.com/vueuse/vueuse',
             'UnoCSS': 'https://github.com/unocss/unocss',
@@ -152,6 +156,8 @@ export default defineConfig({
             'Vercel': { link: 'https://vercel.com', imageUrl: 'https://github.com/vercel.png' },
           },
           imageOverrides: [
+            ['https://github.com/yomidevs/yomitan', 'https://github.com/yomidevs.png'],
+            ['https://github.com/yomidevs/yomitan-wiki', 'https://github.com/yomidevs.png'],
             ['https://github.com/vuejs/core', 'https://vuejs.org/logo.svg'],
             ['https://github.com/nuxt/nuxt', 'https://nuxt.com/assets/design-kit/icon-green.svg'],
             ['https://github.com/vitejs/vite', 'https://vitejs.dev/logo.svg'],

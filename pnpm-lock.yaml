@@ -72,6 +72,10 @@ catalogs:
     vite-svg-loader:
       specifier: ^5.1.0
       version: 5.1.0
+  default:
+    katex:
+      specifier: 'catalog:'
+      version: 0.16.22
   dev:
     '@antfu/eslint-config':
       specifier: ^5.2.2
@@ -270,7 +274,7 @@ importers:
         specifier: catalog:frontend
         version: 5.2.2(vue@3.5.21(typescript@5.9.2))
       katex:
-        specifier: ^0.16.22
+        specifier: 'catalog:'
         version: 0.16.22
       matter-attractors:
         specifier: catalog:frontend

@@ -1,10 +1,12 @@
 ---
-title: Media Consumption - Anthony Fu
+title: Media Consumption
 display: Media Consumption
-description: Anthony's Media Consumption
+description: Son's Media Consumption
 ---
 
-One's life span is around 29,000 days, or 696,000 hours.
+Work in progress ...
+
+<!-- One's life span is around 29,000 days, or 696,000 hours.
 Media consumption is a rather large chunk of my life,
 that more or less shapes the view I have today.
 While we can't live every lifestyle we dream of or experience everything we desire,
@@ -14,4 +16,4 @@ I wanted to list them out, for myself, for share, or just for the record.
 
 <MediaConsumption />
 
-<div class="op50 mt-10">These are ones I enjoyed, not exhaustive. And not necessarily recommendations.</div>
+<div class="op50 mt-10">These are ones I enjoyed, not exhaustive. And not necessarily recommendations.</div> -->
