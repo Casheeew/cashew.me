@@ -6,7 +6,7 @@ import fs from 'fs-extra'
 import matter from 'gray-matter'
 import MarkdownIt from 'markdown-it'
 
-const DOMAIN = 'https://antfu.me'
+const DOMAIN = 'https://casheeew.github.io/cashew.me'
 const AUTHOR = {
   name: 'Anthony Fu',
   email: 'hi@antfu.me',
