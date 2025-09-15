@@ -8,11 +8,11 @@ const isDark = ref(useDark())
   <div
     :style="{
       position: 'fixed',
-      top: '0',
+      top: '-1vh',
       left: '0',
       bottom: '0',
       width: '100vw',
-      height: '100vh',
+      height: '101vh',
       backgroundImage: `url('${isDark ? '/media-dark.webp' : '/media-light.webp'}')`,
       backgroundPosition: 'center center',
       backgroundRepeat: 'no-repeat',
