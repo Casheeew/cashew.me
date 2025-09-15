@@ -2,14 +2,6 @@
 import { ref } from 'vue'
 
 const isDark = ref(useDark())
-onMounted(() => {
-  // Preload both images
-  const dark = new Image()
-  dark.src = '/media-dark.png'
-
-  const light = new Image()
-  light.src = '/media-light.png'
-})
 </script>
 
 <template>
@@ -21,7 +13,7 @@ onMounted(() => {
       bottom: '0',
       width: '100vw',
       height: '100vh',
-      backgroundImage: `url('${isDark ? '/media-dark.png' : '/media-light.png'}')`,
+      backgroundImage: `url('${isDark ? '/media-dark.webp' : '/media-light.webp'}')`,
       backgroundPosition: 'center center',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
