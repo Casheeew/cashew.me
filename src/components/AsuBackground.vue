@@ -2,6 +2,14 @@
 import { ref } from 'vue'
 
 const isDark = ref(useDark())
+onMounted(() => {
+  // Preload both images
+  const dark = new Image()
+  dark.src = '/media-dark.png'
+
+  const light = new Image()
+  light.src = '/media-light.png'
+})
 </script>
 
 <template>
