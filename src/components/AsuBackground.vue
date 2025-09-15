@@ -15,7 +15,7 @@ const isDark = ref(useDark())
       backgroundImage: `url('${isDark ? '/media-dark.png' : '/media-light.png'}')`,
       backgroundPosition: 'center center',
       backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover',
+      backgroundSize: 'contain',
       backgroundAttachment: 'fixed',
       filter: 'blur(0px)',
       backgroundBlendMode: 'overlay',
