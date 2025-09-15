@@ -10,7 +10,7 @@ const isDark = ref(useDark())
       position: 'absolute',
       top: '0',
       left: '-100vw',
-      right: '-100vw',
+      right: '0',
       bottom: '0',
       backgroundImage: `url('${isDark ? '/media-dark.png' : '/media-light.png'}')`,
       backgroundPosition: 'center center',
