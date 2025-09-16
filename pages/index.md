@@ -9,7 +9,7 @@ Hey! I'm <b>Son Nghiem</b>, a software engineer and Human-Computer Interaction (
 
 <div bg-gray-500 bg-opacity-5 grid="~ cols-1 md:cols-3 gap-5">
   <figure>
-    <img src="/IMG_4696.jpg" rounded shadow important-m0 />
+    <img src="/son_avatar.webp" rounded shadow important-m0 />
   </figure>
 
   <div mt-10 col-span-2>
