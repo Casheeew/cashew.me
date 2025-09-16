@@ -15,8 +15,8 @@ const isDark = ref(useDark())
       class="absolute inset-0 bg-inherit blur-[4px] bg-blend-overlay -z-1"
       :style="{
         backgroundColor: isDark
-          ? 'rgba(0, 0, 0, 0.4)'
-          : 'rgba(255, 255, 255, 0.25)',
+          ? 'rgba(0, 0, 0, 0.5)'
+          : 'rgba(255, 255, 255, 0.35)',
       }"
     />
     <div

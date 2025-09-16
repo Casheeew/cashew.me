@@ -4,16 +4,10 @@ display: Media Consumption
 description: Son's Media Consumption
 ---
 
-<AsuBackground />
-
-<div class="font-semibold">
+<CustomBackground />
 
 Welcome to my little alcove where memories stay.
 What you’ll find here is a scrap-book of every piece of media I've encountered, or at least the ones I still remember.
-
-This background image is from 凪の明日から---although I haven't had the chance to watch it.
-
-</div>
 
 <MediaConsumption />
 

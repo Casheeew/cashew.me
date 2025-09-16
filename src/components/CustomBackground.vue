@@ -20,7 +20,7 @@ const isDark = ref(useDark())
       backgroundAttachment: 'fixed',
       filter: 'blur(0px)',
       backgroundBlendMode: 'overlay',
-      backgroundColor: 'rgba(255, 255, 255, 0)',
+      backgroundColor: `${isDark ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.3)'}`,
       zIndex: '-1',
     }"
   />
