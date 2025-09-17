@@ -5,7 +5,7 @@ description: Son Nghiem's Website
 art: random
 ---
 
-Hey! I'm <b>Son Nghiem</b>, a software engineer and Human-Computer Interaction (HCI) researcher. My interests span many topics, but my current focus is designing intelligent systems to <u>augment experiences</u> and developing <u>novel interactions</u>.
+Hey! I'm <span font-serif>Son Nghiem</span>, a software engineer and Human-Computer Interaction (HCI) researcher. My interests span many topics, but my current focus is designing intelligent systems to <u>augment experiences</u> and developing <u>novel interactions</u>.
 
 <div bg-gray-500 bg-opacity-5 grid="~ cols-1 md:cols-3 gap-5">
   <figure>
