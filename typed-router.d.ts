@@ -23,6 +23,7 @@ declare module 'vue-router/auto-routes' {
     '/bar': RouteRecordInfo<'/bar', '/bar', Record<never, never>, Record<never, never>>,
     '/bookmarks': RouteRecordInfo<'/bookmarks', '/bookmarks', Record<never, never>, Record<never, never>>,
     '/demos': RouteRecordInfo<'/demos', '/demos', Record<never, never>, Record<never, never>>,
+    '/experience': RouteRecordInfo<'/experience', '/experience', Record<never, never>, Record<never, never>>,
     '/media': RouteRecordInfo<'/media', '/media', Record<never, never>, Record<never, never>>,
     '/photos': RouteRecordInfo<'/photos', '/photos', Record<never, never>, Record<never, never>>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
@@ -59,6 +60,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/demos.md': {
       routes: '/demos'
+      views: never
+    }
+    'pages/experience.md': {
+      routes: '/experience'
       views: never
     }
     'pages/media.md': {

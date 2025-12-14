@@ -59,8 +59,8 @@ onMounted(async () => {
     ctx.lineTo(nx, ny)
     ctx.stroke()
 
-    const rad1 = rad + random() * r15
-    const rad2 = rad - random() * r15
+    const rad1 = rad + random() * r15 * 1.2
+    const rad2 = rad - random() * r15 * 1.2
 
     // out of bounds
     if (nx < -100 || nx > size.width + 100 || ny < -100 || ny > size.height + 100)
@@ -121,10 +121,11 @@ onMounted(async () => {
     ctx.strokeStyle = color
     prevSteps = []
     steps = [
-      () => step(randomMiddle() * size.width, -5, r90),
       () => step(randomMiddle() * size.width, size.height + 5, -r90),
       () => step(-5, randomMiddle() * size.height, 0),
       () => step(size.width + 5, randomMiddle() * size.height, r180),
+      () => step(randomMiddle() * size.width, -5, r90),
+      () => step(randomMiddle() * size.width, size.height + 5, -r90),
     ]
     if (size.width < 500)
       steps = steps.slice(0, 2)

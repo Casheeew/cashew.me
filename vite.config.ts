@@ -127,6 +127,7 @@ export default defineConfig({
 
         md.use(MarkdownItMagicLink, {
           linksMap: {
+            'Bering Lab': { link: 'https://beringlab.com', imageUrl: 'https://avatars.githubusercontent.com/u/88300039?v=4' },
             'HCI Tech Lab': { link: 'https://hcitech.org', imageUrl: 'https://i.postimg.cc/0yRnbRfx/HCITech.png' },
             'KAIST': { link: 'https://www.kaist.ac.kr/en/html/kaist/01.html', imageUrl: 'https://i.postimg.cc/tC3LD573/emblem2.gif' },
             'AiGlow': { link: 'https://www.linkedin.com/company/aiglowedu/', imageUrl: 'https://media.licdn.com/dms/image/v2/D560BAQEg9ciHhdliBA/company-logo_200_200/B56ZfWmoXbHEAI-/0/1751652141428/aiglowedu_logo?e=1760572800&v=beta&t=0_3bb-_8eupMgjebvR0M7OVfKzSj7Gb2_BScfxByADk' },

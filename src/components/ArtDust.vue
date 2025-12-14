@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Texture } from 'pixi.js'
-import { Application, Graphics, Particle, ParticleContainer } from 'pixi.js'
+import { Application, Container, Graphics, Sprite } from 'pixi.js'
 import { createNoise3D } from 'simplex-noise'
 
 const el = useTemplateRef('el')
@@ -8,46 +8,50 @@ const el = useTemplateRef('el')
 let w = window.innerWidth
 let h = window.innerHeight
 
-const SCALE = 200
-const LENGTH = 5
-const SPACING = 15
+const SCALE = 150
+const WAVE_HEIGHT = 25
+const SPACING = 10
+const COLORS = [0xE0E0E0, 0xE3E3E3, 0xE6E6E6, 0xDDDDDD]
 const CURSOR_INFLUENCE = 25 // Radius of cursor influence
 const CURSOR_PULL_RADIUS = -25 // Radius where particles are pulled toward cursor
 
 const noise3d = createNoise3D()
 
 const existingPoints = new Set<string>()
-const points: { x: number, y: number, opacity: number, particle: Particle }[] = []
+const points: { x: number, y: number, sprite: Sprite, phase: number, speedMod: number }[] = []
 
 // Cursor position
 const cursor = { x: w / 2, y: h / 2 }
 
-function getForceOnPoint(x: number, y: number, z: number) {
-  return (noise3d(x / SCALE, y / SCALE, z) - 0.5) * 2 * Math.PI
+function getNoiseValue(x: number, y: number, z: number) {
+  return noise3d(x / SCALE, y / SCALE, z)
 }
 
 const mountedScope = effectScope()
 
-function createDotTexture(app: Application) {
-  const g = new Graphics().circle(0, 0, 1).fill(0xCCCCCC)
+function createStarTexture(app: Application, color: number) {
+  const g = new Graphics().star(0, 0, 5, 2, 3).fill(color)
   return app.renderer.generateTexture(g)
 }
 
-function addPoints({ dotTexture, particleContainer }: { dotTexture: Texture, particleContainer: ParticleContainer }) {
-  for (let x = -SPACING / 2; x < w + SPACING; x += SPACING) {
-    for (let y = -SPACING / 2; y < h + SPACING; y += SPACING) {
+function addPoints({ textures, container }: { textures: Texture[], container: Container }) {
+  for (let x = -SPACING; x < w + SPACING; x += SPACING) {
+    for (let y = -SPACING; y < h + SPACING; y += SPACING) {
       const id = `${x}-${y}`
       if (existingPoints.has(id))
         continue
       existingPoints.add(id)
 
-      const particle = new Particle(dotTexture)
-      particle.anchorX = 0.5
-      particle.anchorY = 0.5
-      particleContainer.addParticle(particle)
+      const colorIndex = Math.floor(Math.random() * COLORS.length)
+      const sprite = new Sprite(textures[colorIndex])
+      sprite.anchor.set(0.5)
+      sprite.scale.set(0.3)
+      container.addChild(sprite)
 
-      const opacity = Math.random() * 0.5 + 0.5
-      points.push({ x, y, opacity, particle })
+      const phase = Math.random() * Math.PI * 2
+      const speedMod = Math.random() * 0.5 + 0.75
+
+      points.push({ x, y, sprite, phase, speedMod })
     }
   }
 }
@@ -57,7 +61,7 @@ async function setup() {
     return
   const app = new Application()
   await app.init({
-    background: '#ffffff',
+    background: 0xFFFFFF,
     antialias: true,
     resolution: window.devicePixelRatio,
     resizeTo: el.value,
@@ -66,21 +70,27 @@ async function setup() {
   })
   el.value.appendChild(app.canvas)
 
-  const particleContainer = new ParticleContainer({ dynamicProperties: { position: true, alpha: true } })
-  app.stage.addChild(particleContainer)
+  const container = new Container()
+  app.stage.addChild(container)
 
-  const dotTexture = createDotTexture(app)
-  addPoints({ dotTexture, particleContainer })
+  const textures = COLORS.map(color => createStarTexture(app, color))
+  addPoints({ textures, container })
 
+  let time = 0
   app.ticker.add(() => {
-    const t = Date.now() / 10000
+    time += 0.005
 
     for (const p of points) {
-      const { x, y, opacity, particle } = p
+      const { x, y, sprite, phase, speedMod } = p
 
-      // Calculate base animation
-      const rad = getForceOnPoint(x, y, t)
-      const len = (noise3d(x / SCALE, y / SCALE, t * 2) + 0.5) * LENGTH
+      // Create flowing wave motion with noise
+      const noiseVal = getNoiseValue(x, y, time * speedMod)
+
+      // Vertical wave displacement
+      const verticalOffset = Math.sin(x / 100 + time * 2 * speedMod + phase) * WAVE_HEIGHT
+
+      // Horizontal ripple
+      const horizontalOffset = Math.cos(y / 80 + time * 1.5 * speedMod) * 15
 
       // Calculate cursor influence - create a "fabric sink" effect
       const dx = x - cursor.x
@@ -105,17 +115,17 @@ async function setup() {
         }
       }
 
+      sprite.x = x + horizontalOffset + noiseVal * 10 + cursorPushX
+      sprite.y = y + verticalOffset + noiseVal * 15 + cursorPushY
+
+      // Pulsing opacity and scale
+      const pulse = (Math.sin(time * 3 + phase) + 1) / 2
       const cursorForce = Math.max(0, 1 - dist / CURSOR_INFLUENCE)
+      sprite.alpha = 0.4 + pulse * 0.4 + cursorForce * 0.3
+      sprite.scale.set(0.25 + pulse * 0.2)
 
-      const nx = x + Math.cos(rad) * len + cursorPushX
-      const ny = y + Math.sin(rad) * len + cursorPushY
-
-      particle.x = nx
-      particle.y = ny
-
-      // Enhance opacity near cursor
-      const baseAlpha = (Math.abs(Math.cos(rad)) * 0.8 + 0.2) * opacity
-      particle.alpha = baseAlpha + cursorForce * 0.3
+      // Rotation based on noise
+      sprite.rotation = noiseVal * Math.PI
     }
   })
 
@@ -128,9 +138,8 @@ async function setup() {
     useEventListener('resize', () => {
       w = window.innerWidth
       h = window.innerHeight
-      addPoints({ dotTexture, particleContainer })
+      addPoints({ textures, container })
     })
-
     onScopeDispose(() => {
       try {
         app?.destroy(true, { children: true, texture: true, textureSource: true })

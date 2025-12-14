@@ -1,15 +1,38 @@
 <script setup lang="ts">
-defineProps<{ projects: Record<string, any[]> }>()
+import { useColorMode } from '@vueuse/core'
+
+defineProps<{ projects: Record<string, any> }>()
+
+const mode = useColorMode()
 
 function slug(name: string) {
   return name.toLowerCase().replace(/[\s\\/]+/g, '-')
 }
+
+function getThemeImage(item: any) {
+  // If item has both light and dark images
+  if (item.imageLight && item.imageDark) {
+    return mode.value === 'dark' ? item.imageDark : item.imageLight
+  }
+  // Fallback to single image
+  return item.image
+}
+
+function getProjectItems(category: any) {
+  // Support both old structure (array) and new structure (object with items)
+  return Array.isArray(category) ? category : category.items || []
+}
+
+function getSubtitle(category: any) {
+  // Get subtitle from the category object if it exists
+  return !Array.isArray(category) ? category.subtitle : null
+}
 </script>
 
 <template>
-  <div class="max-w-300 mx-auto">
+  <div class="max-w-250 mx-auto">
     <p text-center mt--6 mb5 op50 text-lg italic>
-      Projects that I created or maintaining.
+      What I've cooked on my own time.
     </p>
     <div class="prose pb5 mx-auto mt10 text-center">
       <div flex="~ gap-2 justify-center">
@@ -24,28 +47,6 @@ function slug(name: string) {
           />
           My GitHub
         </a>
-        <!-- <a
-          href="https://releases.antfu.me"
-          target="_blank"
-          class="group btn-amber inline-block"
-        >
-          <div
-            i-ph-rocket-launch-duotone
-            group-hover="i-ph-rocket-launch-fill text-amber"
-          />
-          Recent Releases
-        </a>
-        <a
-          href="https://yak.antfu.me"
-          target="_blank"
-          class="group btn-lime inline-block"
-        >
-          <div
-            i-ph-cow-duotone
-            group-hover="i-ph-cow-duotone-fill text-lime"
-          />
-          Yak Map
-        </a> -->
       </div>
       <hr>
     </div>
@@ -55,50 +56,58 @@ function slug(name: string) {
     >
       <div
         :id="slug(key)"
-        select-none relative h18 mt5 pointer-events-none slide-enter
+        select-none relative h18 mt10 mb8 pointer-events-none slide-enter
         :style="{
           '--enter-stage': cidx - 2,
           '--enter-step': '60ms',
         }"
       >
-        <span text-5em color-transparent absolute left--1rem top-0rem font-bold leading-1em text-stroke-1.5 text-stroke-hex-aaa op35 dark:op20>{{ key }}</span>
+        <span text-5em color-transparent absolute left--1rem top-0rem font-bold leading-1em text-stroke-2 text-stroke-hex-888 op50 dark:op35>{{ key }}</span>
+      </div>
+      <!-- Subtitle -->
+      <div v-if="getSubtitle(projects[key])" class="mt-2 mb8 op50 text-base">
+        {{ getSubtitle(projects[key]) }}
       </div>
       <div
-        class="project-grid py-2 max-w-500 w-max mx-auto"
-        grid="~ cols-1 md:cols-2 gap-4 lg:cols-3"
+        class="project-grid py-2 max-w-500 mx-auto"
+        grid="~ cols-1 md:cols-2 gap-5 lg:cols-3"
       >
         <a
-          v-for="item, idx in projects[key]"
+          v-for="item, idx in getProjectItems(projects[key])"
           :key="idx"
-          class="item relative flex items-center"
+          class="item relative flex flex-col"
+          :class="{ 'has-image': item.image || item.imageLight || item.imageDark }"
           :href="item.link"
           target="_blank"
           :title="item.name"
         >
-          <div v-if="item.icon" class="pt-2 pr-5">
-            <Slidev v-if="item.icon === 'slidev'" class="text-4xl opacity-50" />
-            <VueUse v-else-if="item.icon === 'vueuse'" class="text-4xl opacity-50" />
-            <VueReactivity v-else-if="item.icon === 'vue-reactivity'" class="text-4xl opacity-50" />
-            <VueDemi v-else-if="item.icon === 'vue-demi'" class="text-4xl opacity-50" />
-            <Unocss v-else-if="item.icon === 'unocss'" class="text-4xl opacity-50" />
-            <Vitest v-else-if="item.icon === 'vitest'" class="text-4xl opacity-50" />
-            <Elk v-else-if="item.icon === 'elk'" class="text-4xl opacity-50" />
-            <AnthonyFu v-else-if="item.icon === 'af'" class="text-4xl opacity-50" />
-            <div v-else class="text-3xl opacity-50" :class="item.icon || 'i-carbon-unknown'" />
+          <div v-if="item.image || item.imageLight || item.imageDark" class="project-image-wrapper">
+            <img :src="getThemeImage(item)" :alt="item.name" class="project-image">
           </div>
-          <div class="flex-auto">
-            <div class="text-normal">{{ item.name }}</div>
-            <div class="desc text-sm opacity-50 font-normal" v-html="item.desc" />
+          <div class="project-content" :class="{ 'with-image': item.image || item.imageLight || item.imageDark }">
+            <div class="flex items-center">
+              <div v-if="item.icon" class="pr-3">
+                <Slidev v-if="item.icon === 'slidev'" class="text-3xl opacity-80" />
+                <VueUse v-else-if="item.icon === 'vueuse'" class="text-3xl opacity-80" />
+                <VueReactivity v-else-if="item.icon === 'vue-reactivity'" class="text-3xl opacity-80" />
+                <VueDemi v-else-if="item.icon === 'vue-demi'" class="text-3xl opacity-80" />
+                <Unocss v-else-if="item.icon === 'unocss'" class="text-3xl opacity-80" />
+                <Vitest v-else-if="item.icon === 'vitest'" class="text-3xl opacity-80" />
+                <Elk v-else-if="item.icon === 'elk'" class="text-3xl opacity-80" />
+                <AnthonyFu v-else-if="item.icon === 'af'" class="text-3xl opacity-80" />
+                <div v-else class="text-2xl opacity-80" :class="item.icon || 'i-carbon-unknown'" />
+              </div>
+              <div class="flex-auto">
+                <div class="text-normal">{{ item.name }}</div>
+              </div>
+            </div>
+            <div class="desc text-sm opacity-80 font-normal mt-1" v-html="item.desc" />
           </div>
         </a>
       </div>
     </div>
     <div class="prose pb5 mx-auto mt10 text-center">
-      <div block mt-5>
-        <!-- <a href="https://antfu.me/stars-rank" target="_blank" op50>All projects sort by Stars</a> -->
-      </div>
       <hr>
-      <!-- <SponsorButtons /> -->
     </div>
   </div>
   <div>
@@ -112,6 +121,15 @@ function slug(name: string) {
         </li>
       </ul>
     </div>
+
+    <!-- Call to action -->
+    <div class="text-center mt-16 pt-8">
+      <p class="text-base text-gray-600 dark:text-gray-400">
+        I also write stuff in my free time.
+        <br>
+        Interested? Check out my <a href="/posts" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">blog</a>.
+      </p>
+    </div>
   </div>
 </template>
 
@@ -119,13 +137,49 @@ function slug(name: string) {
 .project-grid a.item {
   background: transparent;
   font-size: 1.1rem;
-  width: 350px;
-  max-width: 100%;
-  padding: 0.5rem 0.875rem 0.875rem;
+  width: 100%;
+  max-width: 350px;
   border-radius: 6px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  opacity: 1 !important;
+}
+
+.project-grid a.item:not(.has-image) {
+  padding: 0.5rem 0.875rem 0.875rem;
 }
 
 .project-grid a.item:hover {
-  background: #88888811;
+  background: #88888822;
+}
+
+.project-grid a.item.has-image:hover {
+  transform: translateY(-2px);
+}
+
+.project-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.item:hover .project-image {
+  transform: scale(1.05);
+}
+
+.project-content {
+  padding: 0.75rem 0.875rem 0.875rem;
+}
+
+.project-content.with-image {
+  padding-top: 0.875rem;
 }
 </style>

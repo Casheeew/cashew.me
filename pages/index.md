@@ -5,7 +5,11 @@ description: Son Nghiem's Website
 art: random
 ---
 
-Hey! I'm <span font-serif>Son Nghiem</span>, a software engineer and Human-Computer Interaction (HCI) researcher. My interests span many topics, but my current focus is designing intelligent systems to <u>augment experiences</u> and developing <u>novel interactions</u>.
+Hey! I'm <span font-serif>Son Nghiem</span>, a software and machine learning engineer with experience building scalable AI and intelligent systems.
+
+Starting <b>December 2025</b>, I will join {Bering Lab} in Seoul to help deliver their AI-powered legal translation system to major law firms and enterprises across the globe.
+
+Previously, I worked at {HCI Tech Lab} developing Gen-AI systems for motion computing and entertainment. I am also a maintainer of {Yomitan}, a powerful, multilingual language learning tool used by <u>100,000+ learners</u> worldwide.
 
 <div bg-gray-500 bg-opacity-5 grid="~ cols-1 md:cols-3 gap-5">
   <figure>
@@ -14,21 +18,23 @@ Hey! I'm <span font-serif>Son Nghiem</span>, a software engineer and Human-Compu
 
   <div mt-10 col-span-2>
 
-- A part of {HCI Tech Lab} <small>(Advised by [Prof. Sang Ho Yoon](https://sanghoy.com/))</small> <br>
-  <small>working on 'Dance Motion Simplification via Diffusion Models'</small> <br>
+- Incoming <small>Software Engineer Intern</small> at {Bering Lab}.
+- Previously a part of {HCI Tech Lab} <br>
+  <small>worked on 'Dance Motion Simplification via Diffusion Models' <br>(full paper submitted to {CHI 2026}!)</small> <br>
 - Pursuing <small>B.Sc Computer Science</small> at {KAIST}<br>
 - Maintaining {Yomitan} {Yomitan Wiki}
-- Freelancing at {AiGlow}
 </div>
 
 </div>
 
-My passion lies in bringing creative ideas to life. I love building tools that empower both myself and others to work smarter, be more productive, and have more fun creating. You can find my [full projects list here](/projects).
+My passion lies in bringing creative ideas to life. I love building tools that empower both myself and others to work smarter, be more productive, and have more fun creating. Visit [my experiences](/experience) to learn more about what I've done in the past, or check out [my projects](/projects).
 
 I'm proficient in `English`, <ruby lang="vi">`Tiếng Việt`<rp>(</rp><rt>Vietnamese</rt><rp>)</rp></ruby>, <ruby lang="ja">`日本語`<rp>(</rp><rt>Japanese</rt><rp>)</rp></ruby>, and can read and write reasonably well in <ruby>`한국어`<rp>(</rp><rt>Korean</rt><rp>)</rp></ruby> and <ruby>`中文`<rp>(</rp><rt>Chinese</rt><rp>)</rp></ruby>。 [Reach out to me](#contacts) in any of the languages above!
 
 > <div font-mono>RECENT NEWS</div>
 
+<small><b>Dec 2025</b> | I'm excited to announce that I will be joining {Bering Lab} for the upcoming Winter.<br> If you are in Seoul and have time,
+please reach out!</small> <br>
 <small><b>Sep 2025</b> | A paper is submitted to {CHI 2026}!</small> <br>
 <small><b>Sep 2025</b> | {Yomitan} has officially been featured by <span op75 i-simple-icons-firefox /> Mozilla!</small> <br>
 <small><b>Jun 2025</b> | I'm starting my journey as an undergraduate researcher for {HCI Tech Lab}.</small> <br>
@@ -42,7 +48,7 @@ I like to write [blog posts](/posts) about language learning, code, or whatever 
 
 Occasionally, I also travel and take photos. I post my [photos on this page](/photos). I'm also a fan of novels and movies, so I'm trying to put together a list of my [media consumption](/media).
 
-I live in <ruby lang="ja">대전<rp>(</rp><rt>Daejeon</rt><rp>)</rp></ruby>, South Korea, so if you are around, please reach out and let's have some coffee or lunch together.
+I live in Daejeon, South Korea, so if you are around, please reach out and let's have some coffee or lunch together.
 
 <div flex-auto />
 
@@ -59,6 +65,8 @@ Find me on
 </p>
 
 Or email me at <span font-mono>cashew<span i-carbon-at/>kaist.ac.kr</span>.
+
+<em>Interested in seeing my work? See [experiences](/experience) or [projects](/projects)!</em>
 
 <!-- <span op50>(</span> Inactive on <span flex="~ inline gap-2 wrap"><a href="https://elk.zone/m.webtoo.ls/@antfu" target="_blank"><span op75 i-simple-icons-mastodon/> Mastodon</a> <a href="https://x.com/antfu7" target="_blank"><span op75 i-ri-twitter-x-fill /> Twitter</a>
 <a href="https://www.zhihu.com/people/antfu" target="_blank"><span op75 i-simple-icons-zhihu /> 知乎</a>
