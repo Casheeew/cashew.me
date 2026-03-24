@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block body %}
+{# Header with title and metadata #}
+{% if frontmatter.display or frontmatter.title %}
+<div class="prose m-auto mb-8{% if frontmatter.wrapperClass %} {{ frontmatter.wrapperClass }}{% endif %}" {% if frontmatter.lang %}lang="{{ frontmatter.lang }}"{% endif %}>
+
+  <h1 class="mb-0 slide-enter-50">
+    {% if frontmatter.display %}{{ frontmatter.display }}{% else %}{{ frontmatter.title }}{% endif %}
+  </h1>
+
+  {% if frontmatter.date %}
+  <p class="opacity-50 !-mt-6 slide-enter-50">
+    {{ frontmatter.date }}
+    {% if frontmatter.duration %} &middot; {{ frontmatter.duration }}{% endif %}
+  </p>
+  {% endif %}
+
+  {% if frontmatter.place %}
+  <p class="mt--4!">
+    <span style="opacity:0.5">at </span>
+    {% if frontmatter.placeLink %}
+    <a href="{{ frontmatter.placeLink }}" target="_blank">{{ frontmatter.place }}</a>
+    {% else %}
+    <span style="font-weight:bold">{{ frontmatter.place }}</span>
+    {% endif %}
+  </p>
+  {% endif %}
+
+  {% if frontmatter.subtitle %}
+  <p class="opacity-50 !-mt-6 italic slide-enter">{{ frontmatter.subtitle }}</p>
+  {% endif %}
+
+  {% if frontmatter.draft %}
+  <p class="slide-enter" style="background:rgba(251,146,60,0.1);color:#fb923c;border-left:3px solid #fb923c;padding:0.5rem 1rem;">
+    This is a draft post, the content may be incomplete. Please check back later.
+  </p>
+  {% endif %}
+</div>
+{% endif %}
+
+{# Main content #}
+<article
+  {% if frontmatter.lang %}lang="{{ frontmatter.lang }}"{% endif %}
+  class="{% if not is_full_width %}prose m-auto slide-enter-content{% endif %}{% if frontmatter.tocAlwaysOn %} toc-always-on{% endif %}{% if frontmatter.class %} {{ frontmatter.class }}{% endif %}"
+>
+  {{ content | safe }}
+</article>
+
+{# Footer with social links and back navigation #}
+{% if route_path != "/" %}
+<div class="prose m-auto mt-8 mb-8 slide-enter print-hidden" style="animation-delay:500ms">
+  {% if frontmatter.duration %}
+  <span style="font-family:monospace;opacity:0.5">&gt; </span>
+  <span style="opacity:0.5">comment on </span>
+  <a href="{{ bluesky_url }}" target="_blank" style="opacity:0.5">bluesky</a>
+  <span style="opacity:0.25"> / </span>
+  <a href="{{ mastodon_url }}" target="_blank" style="opacity:0.5">mastodon</a>
+  <span style="opacity:0.25"> / </span>
+  <a href="{{ twitter_url }}" target="_blank" style="opacity:0.5">twitter</a>
+  {% endif %}
+  <br />
+  <span style="font-family:monospace;opacity:0.5">&gt; </span>
+  <a href="{{ parent_path }}" style="font-family:monospace;opacity:0.5">return ..</a>
+</div>
+{% endif %}
+{% endblock %}

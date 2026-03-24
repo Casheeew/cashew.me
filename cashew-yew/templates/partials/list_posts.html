@@ -1,0 +1,75 @@
+<div class="prose m-auto mb-8 select-none op100!">
+  <div mb-0 flex="~ col gap-1 sm:row sm:gap-3 wrap" text-3xl>
+    <a href="/posts" class="!border-none opacity-100 underline">
+      Blog
+    </a>
+  </div>
+</div>
+
+<ul>
+  {% if not posts or posts | length == 0 %}
+  <div py2 op50>
+    { nothing here yet }
+  </div>
+  {% else %}
+  {% set prev_year = "" %}
+  {% for post in posts %}
+  {# Year header when year changes #}
+  {% if post._year != prev_year %}
+  <div select-none relative h20 pointer-events-none slide-enter style="--enter-stage: {{ loop.index0 - 2 }}; --enter-step: 60ms;">
+    <span text-8em color-transparent absolute left--3rem top--2rem font-bold text-stroke-2 text-stroke-hex-aaa op10>
+      {{ post._year }}
+    </span>
+  </div>
+  {% endif %}
+
+  <div class="slide-enter" style="--enter-stage: {{ loop.index0 }}; --enter-step: 60ms;">
+    <a href="{{ post.path }}" class="item block font-normal mb-6 mt-2 no-underline">
+      <li class="no-underline" flex="~ col md:row gap-2 md:items-center">
+        <div class="title text-lg leading-1.2em" flex="~ gap-2 wrap">
+          {% if post.lang == "zh" %}
+          <span align-middle flex-none class="text-xs bg-zinc:15 text-zinc5 rounded px-1 py-0.5 ml--12 mr2 my-auto hidden md:block">
+            中文
+          </span>
+          {% endif %}
+          {% if post.lang == "ja" %}
+          <span align-middle flex-none class="text-xs bg-zinc:15 text-zinc5 rounded px-1 py-0.5 ml--15 mr2 my-auto hidden md:block">
+            日本語
+          </span>
+          {% endif %}
+
+          <span align-middle>{{ post.title }}</span>
+
+          {% if post.redirect %}
+          <span align-middle op50 flex-none text-xs ml--1.5 i-carbon-arrow-up-right title="External"></span>
+          {% endif %}
+        </div>
+
+        <div flex="~ gap-2 items-center">
+          <span text-sm op50 ws-nowrap>
+            {{ post.date_display }}
+          </span>
+          {% if post.duration %}
+          <span text-sm op40 ws-nowrap>
+            · {{ post.duration }}
+          </span>
+          {% endif %}
+
+          {% if post.lang == "zh" %}
+          <span align-middle flex-none class="text-xs bg-zinc:15 text-zinc5 rounded px-1 py-0.5 my-auto md:hidden">
+            中文
+          </span>
+          {% endif %}
+          {% if post.lang == "ja" %}
+          <span align-middle flex-none class="text-xs bg-zinc:15 text-zinc5 rounded px-1 py-0.5 my-auto md:hidden">
+            日本語
+          </span>
+          {% endif %}
+        </div>
+      </li>
+    </a>
+  </div>
+  {% set_global prev_year = post._year %}
+  {% endfor %}
+  {% endif %}
+</ul>

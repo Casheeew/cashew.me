@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="{{ frontmatter.lang | default(value='en') }}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% if frontmatter.title %}{{ frontmatter.title }}{% else %}Cashew{% endif %}</title>
+  {% if frontmatter.description %}
+  <meta name="description" content="{{ frontmatter.description }}" />
+  {% endif %}
+  {% if frontmatter.image %}
+  <meta property="og:image" content="{{ frontmatter.image }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="{{ frontmatter.image }}" />
+  {% endif %}
+  <meta property="og:title" content="{{ frontmatter.title | default(value='Cashew') }}" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="/styles/uno.css" />
+  <link rel="stylesheet" href="/styles/main.css" />
+  <link rel="stylesheet" href="/styles/prose.css" />
+  <link rel="stylesheet" href="/styles/markdown.css" />
+
+  <!-- KaTeX (loaded conditionally) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" />
+
+  <!-- GitHub Alerts styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markdown-it-github-alerts@1/styles/github-colors-light.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markdown-it-github-alerts@1/styles/github-colors-dark-class.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markdown-it-github-alerts@1/styles/github-base.css" />
+
+  <!-- Shiki Twoslash styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shikijs/twoslash@3/style-rich.css" />
+
+  <script>
+    // Theme toggle: check localStorage or system preference
+    (function() {
+      const saved = localStorage.getItem('color-scheme')
+      if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+      }
+    })()
+  </script>
+</head>
+<body class="font-sans bg-base color-base">
+  {% include "partials/nav.html" %}
+  <main class="px-7 py-10 of-x-hidden">
+    {% block body %}{% endblock %}
+    {% include "partials/footer.html" %}
+  </main>
+
+  <!-- Art background -->
+  {% if frontmatter.art %}
+  <canvas id="art-canvas" style="position:fixed;top:0;left:0;right:0;bottom:0;z-index:-1;pointer-events:none;width:100%;height:100%;"></canvas>
+  <script src="/scripts/art.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var art = '{{ frontmatter.art }}';
+      if (art === 'random') {
+        var arts = ['plum', 'dots', 'dust'];
+        art = arts[Math.floor(Math.random() * arts.length)];
+      }
+      if (window.initArt) window.initArt(art);
+    });
+  </script>
+  {% endif %}
+
+  <!-- Image lightbox -->
+  <div id="lightbox-overlay" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;z-index:500;backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);cursor:pointer;">
+    <div style="position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:-1;"></div>
+    <img id="lightbox-img" style="max-width:100vw;max-height:100vh;width:100%;height:100%;object-fit:contain;" />
+    <div id="lightbox-alt" style="display:none;color:white;background:rgba(0,0,0,0.5);position:absolute;right:20px;bottom:20px;padding:4px 8px;"></div>
+  </div>
+
+  <!-- Theme toggle script -->
+  <script>
+    function toggleDark() {
+      document.documentElement.classList.toggle('dark')
+      localStorage.setItem('color-scheme',
+        document.documentElement.classList.contains('dark') ? 'dark' : 'light'
+      )
+    }
+  </script>
+
+  <!-- KaTeX auto-render -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, { throwOnError: false })"></script>
+
+  <!-- Anchor navigation -->
+  <script>
+    function navigateToHash() {
+      if (location.hash) {
+        const el = document.querySelector(decodeURIComponent(location.hash))
+        if (el) {
+          const rect = el.getBoundingClientRect()
+          const y = window.scrollY + rect.top - 40
+          window.scrollTo({ top: y, behavior: 'smooth' })
+          return true
+        }
+      }
+      return false
+    }
+    window.addEventListener('hashchange', navigateToHash)
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(function() {
+        if (!navigateToHash()) setTimeout(navigateToHash, 1000)
+      }, 1)
+    })
+  </script>
+
+  <!-- Image lightbox -->
+  <script>
+  (function() {
+    var overlay = document.getElementById('lightbox-overlay');
+    var lbImg = document.getElementById('lightbox-img');
+    var lbAlt = document.getElementById('lightbox-alt');
+    if (!overlay) return;
+
+    document.addEventListener('click', function(e) {
+      var target = e.target;
+      if (target.tagName !== 'IMG') return;
+      if (target.classList.contains('no-preview')) return;
+
+      // Don't trigger on images inside links or buttons
+      var parent = target.parentElement;
+      while (parent) {
+        if (parent.tagName === 'A' || parent.tagName === 'BUTTON') return;
+        if (parent.classList.contains('prose') || parent.classList.contains('photos')) break;
+        parent = parent.parentElement;
+      }
+      if (!parent) return;
+
+      lbImg.src = target.src;
+      lbImg.alt = target.alt || '';
+
+      // Try to get figcaption text
+      var alt = target.alt;
+      var figure = target.closest('figure');
+      if (figure) {
+        var caption = figure.querySelector('figcaption');
+        if (caption && caption.textContent) alt = alt || caption.textContent;
+      }
+      if (alt) {
+        lbAlt.textContent = alt;
+        lbAlt.style.display = 'block';
+      } else {
+        lbAlt.style.display = 'none';
+      }
+
+      overlay.style.display = 'block';
+    });
+
+    overlay.addEventListener('click', function() {
+      overlay.style.display = 'none';
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (overlay.style.display === 'none') return;
+      if (e.key === 'Escape') {
+        overlay.style.display = 'none';
+      }
+    });
+  })();
+  </script>
+
+  <!-- Custom background (for pages that include it) -->
+  <script>
+  (function() {
+    var bg = document.getElementById('custom-bg');
+    if (!bg) return;
+    var isDark = document.documentElement.classList.contains('dark');
+    bg.style.backgroundImage = "url('" + (isDark ? '/media-dark.webp' : '/media-light.webp') + "')";
+    bg.style.backgroundColor = isDark ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.3)';
+    var origToggle = window.toggleDark;
+    window.toggleDark = function() {
+      origToggle();
+      var dark = document.documentElement.classList.contains('dark');
+      bg.style.backgroundImage = "url('" + (dark ? '/media-dark.webp' : '/media-light.webp') + "')";
+      bg.style.backgroundColor = dark ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.3)';
+    };
+  })();
+  </script>
+</body>
+</html>

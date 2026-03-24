@@ -1,0 +1,3180 @@
+[
+  {
+    "id": "sponsor-0",
+    "radius": 58.95599454240388,
+    "position": {
+      "x": 188.16081618032044,
+      "y": 251.22154500773914
+    },
+    "name": "Vercel",
+    "login": "vercel",
+    "avatar": "https://avatars.githubusercontent.com/u/14985020?s=200&v=4",
+    "amount": 2000,
+    "link": "https://vercel.com",
+    "org": true
+  },
+  {
+    "id": "sponsor-1",
+    "radius": 58.95599454240388,
+    "position": {
+      "x": 307.9413760656313,
+      "y": 251.22154500773914
+    },
+    "name": "Microsoft",
+    "login": "microsoft",
+    "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+    "amount": 2000,
+    "link": "https://github.com/microsoft",
+    "org": true
+  },
+  {
+    "id": "sponsor-2",
+    "radius": 44.15719637303475,
+    "position": {
+      "x": 248.05109612297585,
+      "y": 337.4440749020373
+    },
+    "name": "VoidZero",
+    "login": "voidzero-dev",
+    "avatar": "https://avatars.githubusercontent.com/u/149750581?v=4",
+    "amount": 1024,
+    "link": "https://github.com/voidzero-dev",
+    "org": true
+  },
+  {
+    "id": "sponsor-3",
+    "radius": 33.062627253417666,
+    "position": {
+      "x": 248.05109612297585,
+      "y": 178.91691651128866
+    },
+    "name": "StackBlitz",
+    "login": "stackblitz",
+    "avatar": "https://avatars.githubusercontent.com/u/28635252?v=4",
+    "amount": 512,
+    "link": "https://github.com/stackblitz",
+    "org": true
+  },
+  {
+    "id": "sponsor-4",
+    "radius": 32.74517549822194,
+    "position": {
+      "x": 183.76841592473124,
+      "y": 157.75495621221967
+    },
+    "name": "Vite",
+    "login": "vitejs",
+    "avatar": "https://avatars.githubusercontent.com/u/65625612?v=4",
+    "amount": 500,
+    "link": "https://github.com/vitejs",
+    "org": true
+  },
+  {
+    "id": "sponsor-5",
+    "radius": 29.934311671162554,
+    "position": {
+      "x": 310.2447709656157,
+      "y": 160.49190195327915
+    },
+    "name": "intra-mart",
+    "login": "intra-mart-dh",
+    "avatar": "https://avatars.githubusercontent.com/u/12388918?u=e6c866558e637671c2ed9ce6235b858cb14b4b1f&v=4",
+    "amount": 400,
+    "link": "https://github.com/intra-mart-dh",
+    "org": false
+  },
+  {
+    "id": "sponsor-6",
+    "radius": 25.179993667703208,
+    "position": {
+      "x": 319.2503213096491,
+      "y": 336.47934188331726
+    },
+    "name": "Workleap",
+    "login": "Infra-Workleap",
+    "avatar": "https://avatars.githubusercontent.com/u/53535748?u=d1e55d7661d724bf2281c1bfd33cb8f99fe2465f&v=4",
+    "amount": 256,
+    "link": "https://github.com/Infra-Workleap",
+    "org": false
+  },
+  {
+    "id": "sponsor-7",
+    "radius": 25.179993667703208,
+    "position": {
+      "x": 176.8518709363026,
+      "y": 336.47934188331726
+    },
+    "name": "Classroomscreen",
+    "login": "ls-ip-holding",
+    "avatar": "https://avatars.githubusercontent.com/u/80311656?v=4",
+    "amount": 256,
+    "link": "https://github.com/ls-ip-holding",
+    "org": true
+  },
+  {
+    "id": "sponsor-8",
+    "radius": 20.77476534067278,
+    "position": {
+      "x": 356.4403826084908,
+      "y": 185.59916214667663
+    },
+    "name": "thundraa",
+    "login": "thundraa",
+    "avatar": "https://images.opencollective.com/thundraa/226fd9c/logo/460.png",
+    "amount": 150,
+    "link": "https://opencollective.com/thundraa",
+    "org": true
+  },
+  {
+    "id": "sponsor-9",
+    "radius": 20.77476534067278,
+    "position": {
+      "x": 137.09376485825504,
+      "y": 187.57716554436672
+    },
+    "name": "JetBrains",
+    "login": "jetbrains",
+    "avatar": "https://images.opencollective.com/jetbrains/fe76f99/logo/460.png",
+    "amount": 150,
+    "link": "https://opencollective.com/jetbrains",
+    "org": true
+  },
+  {
+    "id": "sponsor-10",
+    "radius": 19.6978088843632,
+    "position": {
+      "x": 269.68553796924493,
+      "y": 128.75438741771646
+    },
+    "name": "Vue Mastery",
+    "login": "Code-Pop",
+    "avatar": "https://avatars.githubusercontent.com/u/22382188?v=4",
+    "amount": 128,
+    "link": "https://github.com/Code-Pop",
+    "org": true
+  },
+  {
+    "id": "sponsor-11",
+    "radius": 18.20464067649938,
+    "position": {
+      "x": 228.4196290563522,
+      "y": 129.5405774570687
+    },
+    "name": "Storyblok",
+    "login": "storyblok",
+    "avatar": "https://avatars.githubusercontent.com/u/13880908?v=4",
+    "amount": 100,
+    "link": "https://github.com/storyblok",
+    "org": true
+  },
+  {
+    "id": "sponsor-12",
+    "radius": 16.968335317055054,
+    "position": {
+      "x": 356.06152220112,
+      "y": 312.3459012742057
+    },
+    "name": "patak",
+    "login": "patak-dev",
+    "avatar": "https://avatars.githubusercontent.com/u/583075?u=c2ea71ad847aecf66885e68d81a876fff1486bdd&v=4",
+    "amount": 79,
+    "link": "https://github.com/patak-dev",
+    "org": false
+  },
+  {
+    "id": "sponsor-13",
+    "radius": 16.00500910386347,
+    "position": {
+      "x": 141.34065970458994,
+      "y": 312.1367028689805
+    },
+    "name": "Corey Quinn",
+    "login": "quinnypig",
+    "avatar": "https://avatars.githubusercontent.com/u/489170?u=a2ee879f711dd019077ec9a524a516589c9ab34a&v=4",
+    "amount": 64,
+    "link": "https://github.com/quinnypig",
+    "org": false
+  },
+  {
+    "id": "sponsor-14",
+    "radius": 16.00500910386347,
+    "position": {
+      "x": 298.15714446084473,
+      "y": 374.0118356420684
+    },
+    "name": "Q.Ben Zheng",
+    "login": "Zhengqbbb",
+    "avatar": "https://avatars.githubusercontent.com/u/40693636?u=a81e66f3bfc7333670fec9307af98ae17c6ef0e7&v=4",
+    "amount": 64,
+    "link": "https://github.com/Zhengqbbb",
+    "org": false
+  },
+  {
+    "id": "sponsor-15",
+    "radius": 16.00500910386347,
+    "position": {
+      "x": 197.94504778510696,
+      "y": 374.0118356420684
+    },
+    "name": "Stanislas Ormières",
+    "login": "laruiss",
+    "avatar": "https://avatars.githubusercontent.com/u/2486424?u=7b0c73ae5d090ce53bf59473094e9606fe082c59&v=4",
+    "amount": 64,
+    "link": "https://github.com/laruiss",
+    "org": false
+  },
+  {
+    "id": "sponsor-16",
+    "radius": 16.00500910386347,
+    "position": {
+      "x": 247.14001948771855,
+      "y": 98.6992904803742
+    },
+    "name": "Ben Hong",
+    "login": "bencodezen",
+    "avatar": "https://avatars.githubusercontent.com/u/4836334?u=aacee61efe3325ef286398c8673d9f4bd473eb56&v=4",
+    "amount": 64,
+    "link": "https://github.com/bencodezen",
+    "org": false
+  },
+  {
+    "id": "sponsor-17",
+    "radius": 15.027706082749036,
+    "position": {
+      "x": 376.0238237559271,
+      "y": 217.77984354191176
+    },
+    "name": "Jan-Henrik Damaschke",
+    "login": "itpropro",
+    "avatar": "https://avatars.githubusercontent.com/u/15030951?u=724eb8ee4cae7792ddf13e25c31589dd6c5cb1d1&v=4",
+    "amount": 50,
+    "link": "https://github.com/itpropro",
+    "org": false
+  },
+  {
+    "id": "sponsor-18",
+    "radius": 13.62010315769331,
+    "position": {
+      "x": 122.7302219303453,
+      "y": 286.729938441678
+    },
+    "name": "Marcel Laverdet",
+    "login": "laverdet",
+    "avatar": "https://avatars.githubusercontent.com/u/128856?u=05a6f48309c8f545aeb903c3d017a3516e2e4f55&v=4",
+    "amount": 32,
+    "link": "https://github.com/laverdet",
+    "org": false
+  },
+  {
+    "id": "sponsor-19",
+    "radius": 13.62010315769331,
+    "position": {
+      "x": 374.0966191632782,
+      "y": 285.36085488441216
+    },
+    "name": "Checkly",
+    "login": "checkly",
+    "avatar": "https://avatars.githubusercontent.com/u/25982255?v=4",
+    "amount": 32,
+    "link": "https://github.com/checkly",
+    "org": true
+  },
+  {
+    "id": "sponsor-20",
+    "radius": 13.62010315769331,
+    "position": {
+      "x": 120.63120843313612,
+      "y": 219.8884834644477
+    },
+    "name": "Jose G. Alfonso",
+    "login": "Codermar",
+    "avatar": "https://avatars.githubusercontent.com/u/1392720?u=1658d71fccd57f4444ab21088b0c153f1c4b07f0&v=4",
+    "amount": 32,
+    "link": "https://github.com/Codermar",
+    "org": false
+  },
+  {
+    "id": "sponsor-21",
+    "radius": 13.009790195932387,
+    "position": {
+      "x": 114.77678737716755,
+      "y": 259.3638035674857
+    },
+    "name": "Mike H",
+    "login": "mike-hong",
+    "avatar": "https://images.opencollective.com/mike-hong/avatar/460.png",
+    "amount": 25,
+    "link": "https://opencollective.com/mike-hong",
+    "org": false
+  },
+  {
+    "id": "sponsor-22",
+    "radius": 13.009790195932387,
+    "position": {
+      "x": 301.9963390930424,
+      "y": 116.44489293726534
+    },
+    "name": "flofleche",
+    "login": "flofleche",
+    "avatar": "https://images.opencollective.com/flofleche/avatar/460.png",
+    "amount": 25,
+    "link": "https://opencollective.com/flofleche",
+    "org": false
+  },
+  {
+    "id": "sponsor-23",
+    "radius": 13.009790195932387,
+    "position": {
+      "x": 381.4789322042777,
+      "y": 257.8351593744191
+    },
+    "name": "chax.at",
+    "login": "chax-at1",
+    "avatar": "https://images.opencollective.com/chax-at1/avatar/460.png",
+    "amount": 25,
+    "link": "https://opencollective.com/chax-at1",
+    "org": false
+  },
+  {
+    "id": "sponsor-24",
+    "radius": 12.544663088253168,
+    "position": {
+      "x": 137.69413728801322,
+      "y": 342.3355833287502
+    },
+    "name": "Ulrich Stark",
+    "login": "ulrichstark",
+    "avatar": "https://avatars.githubusercontent.com/u/8657779?u=5cfc779c824faea1372da82157a469a581318f60&v=4",
+    "amount": 20,
+    "link": "https://github.com/ulrichstark",
+    "org": false
+  },
+  {
+    "id": "sponsor-25",
+    "radius": 12.544663088253168,
+    "position": {
+      "x": 398.731075057266,
+      "y": 236.51883190157568
+    },
+    "name": "n8n - Workflow Automation",
+    "login": "n8nio",
+    "avatar": "https://avatars.githubusercontent.com/u/52133374?v=4",
+    "amount": 20,
+    "link": "https://github.com/n8nio",
+    "org": true
+  },
+  {
+    "id": "sponsor-26",
+    "radius": 12.544663088253168,
+    "position": {
+      "x": 98.59854109806238,
+      "y": 237.2213873198845
+    },
+    "name": "WebWorkerTech",
+    "login": "WebWorkerTech",
+    "avatar": "https://avatars.githubusercontent.com/u/92635836?v=4",
+    "amount": 20,
+    "link": "https://github.com/WebWorkerTech",
+    "org": true
+  },
+  {
+    "id": "sponsor-27",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 357.8550775995503,
+      "y": 343.2817909252462
+    },
+    "name": "RainbowBird",
+    "login": "luoling8192",
+    "avatar": "https://avatars.githubusercontent.com/u/44741987?u=a332cdc8c82452d428d048c8f1e651a84795fc21&v=4",
+    "amount": 16,
+    "link": "https://github.com/luoling8192",
+    "org": false
+  },
+  {
+    "id": "sponsor-28",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 200.2048357810307,
+      "y": 113.97391880927796
+    },
+    "name": "TANAKA Kohji",
+    "login": "monsat",
+    "avatar": "https://avatars.githubusercontent.com/u/85702?u=243b084d3c8457f28df9f6ef473e030fa5db8d18&v=4",
+    "amount": 16,
+    "link": "https://github.com/monsat",
+    "org": false
+  },
+  {
+    "id": "sponsor-29",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 353.15271248910733,
+      "y": 150.96056635062737
+    },
+    "name": "Neko",
+    "login": "nekomeowww",
+    "avatar": "https://avatars.githubusercontent.com/u/11081491?u=dfc40b82d79da7d9a985f267e3c5ff17d8fedf3b&v=4",
+    "amount": 16,
+    "link": "https://github.com/nekomeowww",
+    "org": false
+  },
+  {
+    "id": "sponsor-30",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 272.80229588918394,
+      "y": 390.0929726455897
+    },
+    "name": "Jex",
+    "login": "JexLau",
+    "avatar": "https://avatars.githubusercontent.com/u/35288649?u=1cedac024ff57e5906ee83eb60d1c7e608b13d2a&v=4",
+    "amount": 16,
+    "link": "https://github.com/JexLau",
+    "org": false
+  },
+  {
+    "id": "sponsor-31",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 223.29989635676776,
+      "y": 390.0929726455897
+    },
+    "name": "Jianqi Pan",
+    "login": "Jannchie",
+    "avatar": "https://avatars.githubusercontent.com/u/29743310?u=8e0d49b98c35738afadc04e70c7f3918d6ad8cdb&v=4",
+    "amount": 16,
+    "link": "https://github.com/Jannchie",
+    "org": false
+  },
+  {
+    "id": "sponsor-32",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 137.26875849546718,
+      "y": 152.78333748876318
+    },
+    "name": "Yee",
+    "login": "yee94",
+    "avatar": "https://avatars.githubusercontent.com/u/19386356?v=4",
+    "amount": 16,
+    "link": "https://github.com/yee94",
+    "org": false
+  },
+  {
+    "id": "sponsor-33",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 328.1748864886921,
+      "y": 374.6493911043455
+    },
+    "name": "David Vallejo",
+    "login": "thyngster",
+    "avatar": "https://avatars.githubusercontent.com/u/1494564?u=9f275ee477468e675a6e6e19faef6035eeace956&v=4",
+    "amount": 16,
+    "link": "https://github.com/thyngster",
+    "org": false
+  },
+  {
+    "id": "sponsor-34",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 167.92730575725955,
+      "y": 374.6493911043455
+    },
+    "name": "Avantpage",
+    "login": "avantpage",
+    "avatar": "https://avatars.githubusercontent.com/u/49530281?v=4",
+    "amount": 16,
+    "link": "https://github.com/avantpage",
+    "org": true
+  },
+  {
+    "id": "sponsor-35",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 111.3170566952073,
+      "y": 311.9030883299117
+    },
+    "name": "kang",
+    "login": "ZWkang",
+    "avatar": "https://avatars.githubusercontent.com/u/15853907?u=9a878c0efeedf49b406815aab63ebc611d3ede52&v=4",
+    "amount": 16,
+    "link": "https://github.com/ZWkang",
+    "org": false
+  },
+  {
+    "id": "sponsor-36",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 386.9471780855839,
+      "y": 309.8314689217508
+    },
+    "name": "Jason Poulin",
+    "login": "jasonvanguard",
+    "avatar": "https://avatars.githubusercontent.com/u/55339225?u=f97b60c098d906196b497c389286eb674d8f1e46&v=4",
+    "amount": 16,
+    "link": "https://github.com/jasonvanguard",
+    "org": false
+  },
+  {
+    "id": "sponsor-37",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 248.05109612297585,
+      "y": 398.5941352046858
+    },
+    "name": "Daniel Roe",
+    "login": "danielroe",
+    "avatar": "https://avatars.githubusercontent.com/u/28706372?u=c4a5aa5232c09c3248533366d5c93a138d7e8987&v=4",
+    "amount": 16,
+    "link": "https://github.com/danielroe",
+    "org": false
+  },
+  {
+    "id": "sponsor-38",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 390.5211970735463,
+      "y": 192.60909644982303
+    },
+    "name": "Vladimir",
+    "login": "sheremet-va",
+    "avatar": "https://avatars.githubusercontent.com/u/16173870?u=a93924a94b9840bc6b76fac48b50f80177df979b&v=4",
+    "amount": 16,
+    "link": "https://github.com/sheremet-va",
+    "org": false
+  },
+  {
+    "id": "sponsor-39",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 103.8695818801136,
+      "y": 197.91132051567163
+    },
+    "name": null,
+    "login": "m1heng",
+    "avatar": "https://avatars.githubusercontent.com/u/18018422?u=3c9c921e45c19b4ad438206d6bbe8bee2b338b40&v=4",
+    "amount": 16,
+    "link": "https://github.com/m1heng",
+    "org": false
+  },
+  {
+    "id": "sponsor-40",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 96.19548096406515,
+      "y": 278.9933152873257
+    },
+    "name": "Chris Johnson",
+    "login": "rebz",
+    "avatar": "https://avatars.githubusercontent.com/u/628385?u=e4d6bfdd7c2ca6a5d318b92f4b1ac57b7f55bcb3&v=4",
+    "amount": 16,
+    "link": "https://github.com/rebz",
+    "org": false
+  },
+  {
+    "id": "sponsor-41",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 400.46464198479686,
+      "y": 277.073805441823
+    },
+    "name": "Ivan Demchuk",
+    "login": "Demivan",
+    "avatar": "https://avatars.githubusercontent.com/u/2339406?u=ebb08257f485ed5a1e5c7acdf359bed4207d0c57&v=4",
+    "amount": 16,
+    "link": "https://github.com/Demivan",
+    "org": false
+  },
+  {
+    "id": "sponsor-42",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 142.4989169787857,
+      "y": 368.4616048399614
+    },
+    "name": "wheat",
+    "login": "wheatjs",
+    "avatar": "https://avatars.githubusercontent.com/u/7064956?u=bc627ebc91a12ee86327a8845f41d9f271b578e8&v=4",
+    "amount": 16,
+    "link": "https://github.com/wheatjs",
+    "org": false
+  },
+  {
+    "id": "sponsor-43",
+    "radius": 12.150931972063262,
+    "position": {
+      "x": 353.75652452279513,
+      "y": 369.1292959769903
+    },
+    "name": "xx",
+    "login": "xxholly32",
+    "avatar": "https://avatars.githubusercontent.com/u/6063358?u=178e0d048cd9f7441a3c601f7dc18f8b4e610f1e&v=4",
+    "amount": 16,
+    "link": "https://github.com/xxholly32",
+    "org": false
+  },
+  {
+    "id": "sponsor-44",
+    "radius": 12.048990959193269,
+    "position": {
+      "x": 328.59135661455855,
+      "y": 120.66239532286667
+    },
+    "name": "VueUse",
+    "login": "vueuse",
+    "avatar": "https://images.opencollective.com/vueuse/329338c/logo/460.png",
+    "amount": 15,
+    "link": "https://opencollective.com/vueuse",
+    "org": true
+  },
+  {
+    "id": "sponsor-45",
+    "radius": 12.048990959193269,
+    "position": {
+      "x": 111.59448307779783,
+      "y": 337.97010580497073
+    },
+    "name": "UnoCSS",
+    "login": "unocss",
+    "avatar": "https://images.opencollective.com/unocss/040a0fb/logo/460.png",
+    "amount": 15,
+    "link": "https://opencollective.com/unocss",
+    "org": true
+  },
+  {
+    "id": "sponsor-46",
+    "radius": 12.048990959193269,
+    "position": {
+      "x": 354.2075744547941,
+      "y": 124.91342386481642
+    },
+    "name": "Play-fortune.pl",
+    "login": "play-fortune-pl",
+    "avatar": "https://images.opencollective.com/play-fortune-pl/a15cdce/logo/460.png",
+    "amount": 15,
+    "link": "https://opencollective.com/play-fortune-pl",
+    "org": true
+  },
+  {
+    "id": "sponsor-47",
+    "radius": 12.048990959193269,
+    "position": {
+      "x": 382.75382805040294,
+      "y": 335.5604833009539
+    },
+    "name": "mello-r",
+    "login": "mello-r",
+    "avatar": "https://images.opencollective.com/mello-r/778dc52/avatar/460.png",
+    "amount": 15,
+    "link": "https://opencollective.com/mello-r",
+    "org": false
+  },
+  {
+    "id": "sponsor-48",
+    "radius": 11.840329668003623,
+    "position": {
+      "x": 174.4022021071106,
+      "y": 112.25489893044028
+    },
+    "name": "SerKo",
+    "login": "serkodev",
+    "avatar": "https://avatars.githubusercontent.com/u/44749100?u=e0c8f8e5305cffe6d9a047af11d8ac0fe20d3ab0&v=4",
+    "amount": 13,
+    "link": "https://github.com/serkodev",
+    "org": false
+  },
+  {
+    "id": "sponsor-49",
+    "radius": 11.513732020258182,
+    "position": {
+      "x": 217.91827135487893,
+      "y": 95.58424020532641
+    },
+    "name": "tecvan",
+    "login": "Tecvan-fe",
+    "avatar": "https://avatars.githubusercontent.com/u/84165678?u=2b374b65f303aea7ba1183f41eb28a876950958e&v=4",
+    "amount": 10,
+    "link": "https://github.com/Tecvan-fe",
+    "org": false
+  },
+  {
+    "id": "sponsor-50",
+    "radius": 11.513732020258182,
+    "position": {
+      "x": 282.76518157461214,
+      "y": 98.36990595793026
+    },
+    "name": "Bjorn Lu",
+    "login": "bluwy",
+    "avatar": "https://avatars.githubusercontent.com/u/34116392?u=b156c6773cb1d21bf37c99bd427486ce73b2173d&v=4",
+    "amount": 10,
+    "link": "https://github.com/bluwy",
+    "org": false
+  },
+  {
+    "id": "sponsor-51",
+    "radius": 11.513732020258182,
+    "position": {
+      "x": 294.71644020136443,
+      "y": 403.1970314843783
+    },
+    "name": "Eduardo San Martin Morote",
+    "login": "posva",
+    "avatar": "https://avatars.githubusercontent.com/u/664177?u=06259cb98f3d65c5901edf488b6bf4ab5f4bccec&v=4",
+    "amount": 10,
+    "link": "https://github.com/posva",
+    "org": false
+  },
+  {
+    "id": "sponsor-52",
+    "radius": 11.513732020258182,
+    "position": {
+      "x": 201.38575204458724,
+      "y": 403.1970314843783
+    },
+    "name": "Michael Hoffmann",
+    "login": "michael-hoffmann2",
+    "avatar": "https://images.opencollective.com/michael-hoffmann2/eecd5f4/avatar/460.png",
+    "amount": 10,
+    "link": "https://opencollective.com/michael-hoffmann2",
+    "org": false
+  },
+  {
+    "id": "sponsor-53",
+    "radius": 11.513732020258182,
+    "position": {
+      "x": 377.4860382265449,
+      "y": 158.6958968245802
+    },
+    "name": "Mathieu Janio",
+    "login": "mathieu-janio",
+    "avatar": "https://images.opencollective.com/mathieu-janio/avatar/460.png",
+    "amount": 10,
+    "link": "https://opencollective.com/mathieu-janio",
+    "org": false
+  },
+  {
+    "id": "sponsor-54",
+    "radius": 11.513732020258182,
+    "position": {
+      "x": 147.4203534025728,
+      "y": 129.35491031518765
+    },
+    "name": "Michel EDIGHOFFER",
+    "login": "edimitchel",
+    "avatar": "https://avatars.githubusercontent.com/u/2922851?u=fb416b821e68e664f46d3d4157727eabc9a5fbca&v=4",
+    "amount": 10,
+    "link": "https://github.com/edimitchel",
+    "org": false
+  },
+  {
+    "id": "sponsor-55",
+    "radius": 11.513732020258182,
+    "position": {
+      "x": 268.1862493757361,
+      "y": 78.18904158729862
+    },
+    "name": "Emmanuel Salomon",
+    "login": "ManUtopiK",
+    "avatar": "https://avatars.githubusercontent.com/u/188172?v=4",
+    "amount": 10,
+    "link": "https://github.com/ManUtopiK",
+    "org": false
+  },
+  {
+    "id": "sponsor-56",
+    "radius": 11.513732020258182,
+    "position": {
+      "x": 113.72520798510797,
+      "y": 162.6650027508367
+    },
+    "name": "wū yāng",
+    "login": "uyarn",
+    "avatar": "https://avatars.githubusercontent.com/u/26377630?u=b09ed2211d2341fffe0102337c96400928252e75&v=4",
+    "amount": 10,
+    "link": "https://github.com/uyarn",
+    "org": false
+  },
+  {
+    "id": "sponsor-57",
+    "radius": 11.513732020258182,
+    "position": {
+      "x": 87.39981348776365,
+      "y": 302.9637619379794
+    },
+    "name": "yoyoIU",
+    "login": "yoyo930021",
+    "avatar": "https://avatars.githubusercontent.com/u/9126398?u=74663065850f1cc54d1c9e7643d67b6e3b066697&v=4",
+    "amount": 10,
+    "link": "https://github.com/yoyo930021",
+    "org": false
+  },
+  {
+    "id": "sponsor-58",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 318.8684645394018,
+      "y": 398.1805973568637
+    },
+    "name": "Vida Xie",
+    "login": "9romise",
+    "avatar": "https://avatars.githubusercontent.com/u/38204901?u=8dbf5fca9f644689402a062552f1c80cbfcb03a6&v=4",
+    "amount": 8,
+    "link": "https://github.com/9romise",
+    "org": false
+  },
+  {
+    "id": "sponsor-59",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 177.23372770654987,
+      "y": 398.1805973568637
+    },
+    "name": "Arthur Darkstone",
+    "login": "ArthurDarkstone",
+    "avatar": "https://avatars.githubusercontent.com/u/34020340?u=d0a0c81b191571902ee9f07d40954df549843a16&v=4",
+    "amount": 8,
+    "link": "https://github.com/ArthurDarkstone",
+    "org": false
+  },
+  {
+    "id": "sponsor-60",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 85.37753131870139,
+      "y": 215.18474586303563
+    },
+    "name": "MOMA",
+    "login": "lxqmoma",
+    "avatar": "https://avatars.githubusercontent.com/u/40649097?u=a829555532bdceb82514cc8c4a2966a36d37524a&v=4",
+    "amount": 8,
+    "link": "https://github.com/lxqmoma",
+    "org": false
+  },
+  {
+    "id": "sponsor-61",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 410.4059375675538,
+      "y": 300.3439107130297
+    },
+    "name": "Quinn Zipse",
+    "login": "quinnzipse",
+    "avatar": "https://avatars.githubusercontent.com/u/25140452?u=56db209c54ecb02cad24bd0e57f44957795f521e&v=4",
+    "amount": 8,
+    "link": "https://github.com/quinnzipse",
+    "org": false
+  },
+  {
+    "id": "sponsor-62",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 82.82500956291318,
+      "y": 257.5094224439009
+    },
+    "name": null,
+    "login": "songkeys",
+    "avatar": "https://avatars.githubusercontent.com/u/22665058?u=6502044d74cd15a821920363ae274c474d88948d&v=4",
+    "amount": 8,
+    "link": "https://github.com/songkeys",
+    "org": false
+  },
+  {
+    "id": "sponsor-63",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 406.68172649287396,
+      "y": 212.0812418396826
+    },
+    "name": "IlyaL",
+    "login": "ilyaliao",
+    "avatar": "https://avatars.githubusercontent.com/u/93901409?u=2bbbdc5294449782b6acd9d57455863d56c7a174&v=4",
+    "amount": 8,
+    "link": "https://github.com/ilyaliao",
+    "org": false
+  },
+  {
+    "id": "sponsor-64",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 415.03386132054055,
+      "y": 256.38407356478376
+    },
+    "name": "Christopher Dobson",
+    "login": "nothinglastsforever",
+    "avatar": "https://avatars.githubusercontent.com/u/6544432?u=aa52261a217528fc43a47d8f47d63c3258fa788e&v=4",
+    "amount": 8,
+    "link": "https://github.com/nothinglastsforever",
+    "org": false
+  },
+  {
+    "id": "sponsor-65",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 399.8569494456703,
+      "y": 169.08951131650986
+    },
+    "name": "Bin",
+    "login": "ffgenius",
+    "avatar": "https://avatars.githubusercontent.com/u/106022674?u=0777acaf8c4c05e7dcbf192ffb554830080bf643&v=4",
+    "amount": 8,
+    "link": "https://github.com/ffgenius",
+    "org": false
+  },
+  {
+    "id": "sponsor-66",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 92.53241768980877,
+      "y": 175.28841474919568
+    },
+    "name": "KumJungMin",
+    "login": "KumJungMin",
+    "avatar": "https://avatars.githubusercontent.com/u/37934668?u=4de3e79e38d592b7a10aae8fa7a6764384c8f2c4&v=4",
+    "amount": 8,
+    "link": "https://github.com/KumJungMin",
+    "org": false
+  },
+  {
+    "id": "sponsor-67",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 267.462310977716,
+      "y": 414.82780068910114
+    },
+    "name": "Lukas Wydra",
+    "login": "lwydra",
+    "avatar": "https://avatars.githubusercontent.com/u/31655006?v=4",
+    "amount": 8,
+    "link": "https://github.com/lwydra",
+    "org": false
+  },
+  {
+    "id": "sponsor-68",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 228.63988126823568,
+      "y": 414.82780068910114
+    },
+    "name": "xiaomo",
+    "login": "zhangmo8",
+    "avatar": "https://avatars.githubusercontent.com/u/43628500?u=163e6ae8a4d708643492b5758b0170c6d66fa7cd&v=4",
+    "amount": 8,
+    "link": "https://github.com/zhangmo8",
+    "org": false
+  },
+  {
+    "id": "sponsor-69",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 150.52002090901385,
+      "y": 104.88294773899946
+    },
+    "name": "Tony",
+    "login": "Tony-Xiong",
+    "avatar": "https://avatars.githubusercontent.com/u/15956448?u=e1bc751d88192cba8107e1b0b1e7212dd2c3fe3f&v=4",
+    "amount": 8,
+    "link": "https://github.com/Tony-Xiong",
+    "org": false
+  },
+  {
+    "id": "sponsor-70",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 319.6223565758137,
+      "y": 97.10957348058497
+    },
+    "name": "Julien Déramond",
+    "login": "julien-deramond",
+    "avatar": "https://avatars.githubusercontent.com/u/17381666?u=a9b71c0b77efa17719595a35f1d1c637c4ad63ac&v=4",
+    "amount": 8,
+    "link": "https://github.com/julien-deramond",
+    "org": false
+  },
+  {
+    "id": "sponsor-71",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 288.59990866201144,
+      "y": 427.09416379997094
+    },
+    "name": null,
+    "login": "philipimperato",
+    "avatar": "https://avatars.githubusercontent.com/u/2430560?v=4",
+    "amount": 8,
+    "link": "https://github.com/philipimperato",
+    "org": false
+  },
+  {
+    "id": "sponsor-72",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 207.50228358394025,
+      "y": 427.0941637999709
+    },
+    "name": "Cali Castle",
+    "login": "CaliCastle",
+    "avatar": "https://avatars.githubusercontent.com/u/10830749?u=c8ef6d06d523cda9e114efa5adfd783783c21b2a&v=4",
+    "amount": 8,
+    "link": "https://github.com/CaliCastle",
+    "org": false
+  },
+  {
+    "id": "sponsor-73",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 117.94068253153168,
+      "y": 362.3607624366134
+    },
+    "name": null,
+    "login": "alabaki",
+    "avatar": "https://avatars.githubusercontent.com/u/13958061?v=4",
+    "amount": 8,
+    "link": "https://github.com/alabaki",
+    "org": false
+  },
+  {
+    "id": "sponsor-74",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 377.43145564409986,
+      "y": 360.19482377107585
+    },
+    "name": "Jacob Long",
+    "login": "Jclong98",
+    "avatar": "https://avatars.githubusercontent.com/u/36164786?u=b7178304c950f1234cb7edb26594d9f507148a8c&v=4",
+    "amount": 8,
+    "link": "https://github.com/Jclong98",
+    "org": false
+  },
+  {
+    "id": "sponsor-75",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 300.7917857385754,
+      "y": 81.53166278066789
+    },
+    "name": "Stefan",
+    "login": "okydk",
+    "avatar": "https://avatars.githubusercontent.com/u/5545171?u=ba1b5f5376949d6ab5a451c1587de028768904b1&v=4",
+    "amount": 8,
+    "link": "https://github.com/okydk",
+    "org": false
+  },
+  {
+    "id": "sponsor-76",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 188.43593757720956,
+      "y": 91.57257527222922
+    },
+    "name": "Neil Mispelaar",
+    "login": "neilmispelaar",
+    "avatar": "https://avatars.githubusercontent.com/u/9325038?u=ddd89c1a68cd9397bfbad290587a54def0ebe529&v=4",
+    "amount": 8,
+    "link": "https://github.com/neilmispelaar",
+    "org": false
+  },
+  {
+    "id": "sponsor-77",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 205.62372723181397,
+      "y": 74.1989865059463
+    },
+    "name": "ch3cknull",
+    "login": "ch3cknull",
+    "avatar": "https://avatars.githubusercontent.com/u/45302021?u=0a4a9e8cb3ddc3bb9944837496bfbf7e6fbc8928&v=4",
+    "amount": 8,
+    "link": "https://github.com/ch3cknull",
+    "org": false
+  },
+  {
+    "id": "sponsor-78",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 377.70391159233986,
+      "y": 134.02937250157674
+    },
+    "name": "Jason Rietzke",
+    "login": "jason-rietzke",
+    "avatar": "https://avatars.githubusercontent.com/u/28512517?u=5061af7d2bb46d68caa8ea6d1b04bede8384c15b&v=4",
+    "amount": 8,
+    "link": "https://github.com/jason-rietzke",
+    "org": false
+  },
+  {
+    "id": "sponsor-79",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 150.092060996341,
+      "y": 392.6001905716369
+    },
+    "name": "Kevin Van Cott",
+    "login": "KevinVandy",
+    "avatar": "https://avatars.githubusercontent.com/u/28243511?u=c422106065277bddf5f85bc37f724568733db225&v=4",
+    "amount": 8,
+    "link": "https://github.com/KevinVandy",
+    "org": false
+  },
+  {
+    "id": "sponsor-80",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 345.53417054248393,
+      "y": 393.0608661766082
+    },
+    "name": "Samuel",
+    "login": "nyambe",
+    "avatar": "https://avatars.githubusercontent.com/u/2040066?v=4",
+    "amount": 8,
+    "link": "https://github.com/nyambe",
+    "org": false
+  },
+  {
+    "id": "sponsor-81",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 122.89083479500073,
+      "y": 131.96021410968416
+    },
+    "name": "Mezereon",
+    "login": "mezereon-co",
+    "avatar": "https://avatars.githubusercontent.com/u/42593963?u=cae5ce98673a6e9c6dcdf9fae7a5d3073fd79631&v=4",
+    "amount": 8,
+    "link": "https://github.com/mezereon-co",
+    "org": false
+  },
+  {
+    "id": "sponsor-82",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 100.5304921410584,
+      "y": 141.82311308661411
+    },
+    "name": "Benben Weng",
+    "login": "benben6515",
+    "avatar": "https://avatars.githubusercontent.com/u/61361198?u=b1c5942c7ef5c8a29e0a92cade0b8993f1fa0b18&v=4",
+    "amount": 8,
+    "link": "https://github.com/benben6515",
+    "org": false
+  },
+  {
+    "id": "sponsor-83",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 406.1828138760617,
+      "y": 326.27280320254664
+    },
+    "name": "Barthélémy Ledoux",
+    "login": "elevatebart",
+    "avatar": "https://avatars.githubusercontent.com/u/5592465?u=9ccb9620105bc63148c5080cb1d39ad67370e1f9&v=4",
+    "amount": 8,
+    "link": "https://github.com/elevatebart",
+    "org": false
+  },
+  {
+    "id": "sponsor-84",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 336.03290649857325,
+      "y": 415.5772531291974
+    },
+    "name": null,
+    "login": "mbarto",
+    "avatar": "https://avatars.githubusercontent.com/u/2770528?u=5f24a34b5dbb7c2f181f054811a9fc655868c399&v=4",
+    "amount": 8,
+    "link": "https://github.com/mbarto",
+    "org": false
+  },
+  {
+    "id": "sponsor-85",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 159.60844588047837,
+      "y": 415.1101909840714
+    },
+    "name": "DM|全渣攻城獅",
+    "login": "dmoosocool",
+    "avatar": "https://avatars.githubusercontent.com/u/30599141?u=b503f045dacc69f9b53c09e55e6f4b1d23ff1e76&v=4",
+    "amount": 8,
+    "link": "https://github.com/dmoosocool",
+    "org": false
+  },
+  {
+    "id": "sponsor-86",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 88.6236908800955,
+      "y": 327.60086840585393
+    },
+    "name": "Thomas",
+    "login": "aulneau",
+    "avatar": "https://avatars.githubusercontent.com/u/11803153?u=23ddb4b801b66522d9614e6988ed113d1ffc0a00&v=4",
+    "amount": 8,
+    "link": "https://github.com/aulneau",
+    "org": false
+  },
+  {
+    "id": "sponsor-87",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 230.8011800809368,
+      "y": 74.54818654174912
+    },
+    "name": "Clex1o1",
+    "login": "Clex1o1",
+    "avatar": "https://avatars.githubusercontent.com/u/15003466?u=f9ddf29ee36aae9dcf0d63073a244e605e43a911&v=4",
+    "amount": 8,
+    "link": "https://github.com/Clex1o1",
+    "org": false
+  },
+  {
+    "id": "sponsor-88",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 248.05109612297585,
+      "y": 429.6759129493837
+    },
+    "name": "Eneko Rodríguez",
+    "login": "Nisgrak",
+    "avatar": "https://avatars.githubusercontent.com/u/19597708?v=4",
+    "amount": 8,
+    "link": "https://github.com/Nisgrak",
+    "org": false
+  },
+  {
+    "id": "sponsor-89",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 423.5310850779533,
+      "y": 229.7832421532701
+    },
+    "name": "Aleksei Zolotov",
+    "login": "freopen",
+    "avatar": "https://avatars.githubusercontent.com/u/722978?u=bc5d09a185762625f8f5000a647a914522047274&v=4",
+    "amount": 8,
+    "link": "https://github.com/freopen",
+    "org": false
+  },
+  {
+    "id": "sponsor-90",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 71.96649695018473,
+      "y": 235.6152587542311
+    },
+    "name": "hikae",
+    "login": "HikaruEgashira",
+    "avatar": "https://avatars.githubusercontent.com/u/39324739?u=846fcaed774d2417d7f72875e0592af97cbc1a6b&v=4",
+    "amount": 8,
+    "link": "https://github.com/HikaruEgashira",
+    "org": false
+  },
+  {
+    "id": "sponsor-91",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 415.6128763350496,
+      "y": 189.33269765928625
+    },
+    "name": null,
+    "login": "mrwokkel",
+    "avatar": "https://avatars.githubusercontent.com/u/27422?v=4",
+    "amount": 8,
+    "link": "https://github.com/mrwokkel",
+    "org": false
+  },
+  {
+    "id": "sponsor-92",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 344.93583881508266,
+      "y": 101.4781236393751
+    },
+    "name": "Fran",
+    "login": "Arbust908",
+    "avatar": "https://avatars.githubusercontent.com/u/10366059?u=13db4c665d6cf5d80c8c6917c33391b4cc0e60af&v=4",
+    "amount": 8,
+    "link": "https://github.com/Arbust908",
+    "org": false
+  },
+  {
+    "id": "sponsor-93",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 438.3890117508289,
+      "y": 249.18694578980018
+    },
+    "name": "Milos Dimitrijevic",
+    "login": "milos018",
+    "avatar": "https://avatars.githubusercontent.com/u/46306967?u=771a9a638e8d2d13b28a2e0f2d357cc45e0d298a&v=4",
+    "amount": 8,
+    "link": "https://github.com/milos018",
+    "org": false
+  },
+  {
+    "id": "sponsor-94",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 70.89127988357245,
+      "y": 278.836583431038
+    },
+    "name": "  Victor",
+    "login": "victortolbert",
+    "avatar": "https://avatars.githubusercontent.com/u/2476?u=d7e354b0acaf6a8d6ed51d08f6656c04bc787a9d&v=4",
+    "amount": 8,
+    "link": "https://github.com/victortolbert",
+    "org": false
+  },
+  {
+    "id": "sponsor-95",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 75.51168777729131,
+      "y": 192.82570225542003
+    },
+    "name": "Marko",
+    "login": "aussieboi",
+    "avatar": "https://avatars.githubusercontent.com/u/2497323?u=189c706b73e0495b56688589447d3e46b8045f73&v=4",
+    "amount": 8,
+    "link": "https://github.com/aussieboi",
+    "org": false
+  },
+  {
+    "id": "sponsor-96",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 428.6352285668638,
+      "y": 316.62133831978963
+    },
+    "name": "ryo",
+    "login": "kawamataryo",
+    "avatar": "https://avatars.githubusercontent.com/u/11070996?v=4",
+    "amount": 8,
+    "link": "https://github.com/kawamataryo",
+    "org": false
+  },
+  {
+    "id": "sponsor-97",
+    "radius": 11.28518369450498,
+    "position": {
+      "x": 312.617606627533,
+      "y": 422.5762124647059
+    },
+    "name": "GU Yiling",
+    "login": "Justineo",
+    "avatar": "https://avatars.githubusercontent.com/u/1726061?u=3490c34534d2a2a12e2e2221ffa2f476e1bbd77d&v=4",
+    "amount": 8,
+    "link": "https://github.com/Justineo",
+    "org": false
+  },
+  {
+    "id": "sponsor-98",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 184.1496061833913,
+      "y": 421.240922580865
+    },
+    "name": "Yann Bertrand",
+    "login": "yannbertrand",
+    "avatar": "https://images.opencollective.com/yannbertrand/8aba1d8/avatar/460.png",
+    "amount": 5,
+    "link": "https://opencollective.com/yannbertrand",
+    "org": false
+  },
+  {
+    "id": "sponsor-99",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 425.38344485009753,
+      "y": 278.12100286282106
+    },
+    "name": "xiao",
+    "login": "xiao-xiang",
+    "avatar": "https://images.opencollective.com/xiao-xiang/avatar/460.png",
+    "amount": 5,
+    "link": "https://opencollective.com/xiao-xiang",
+    "org": false
+  },
+  {
+    "id": "sponsor-100",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 63.13299021800958,
+      "y": 301.6273033847466
+    },
+    "name": "Roboflow",
+    "login": "roboflow",
+    "avatar": "https://avatars.githubusercontent.com/u/53104118?v=4",
+    "amount": 5,
+    "link": "https://github.com/roboflow",
+    "org": true
+  },
+  {
+    "id": "sponsor-101",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 335.74207893395015,
+      "y": 79.22766850265421
+    },
+    "name": "Peter Chen",
+    "login": "peter-chen",
+    "avatar": "https://images.opencollective.com/peter-chen/avatar/460.png",
+    "amount": 5,
+    "link": "https://opencollective.com/peter-chen",
+    "org": false
+  },
+  {
+    "id": "sponsor-102",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 440.99933879634307,
+      "y": 295.96373069508064
+    },
+    "name": "Olivier",
+    "login": "olivier13",
+    "avatar": "https://images.opencollective.com/olivier13/avatar/460.png",
+    "amount": 5,
+    "link": "https://opencollective.com/olivier13",
+    "org": false
+  },
+  {
+    "id": "sponsor-103",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 423.812836345019,
+      "y": 166.69713646946695
+    },
+    "name": "maybeanerd",
+    "login": "maybeanerd",
+    "avatar": "https://images.opencollective.com/maybeanerd/71faf43/avatar/460.png",
+    "amount": 5,
+    "link": "https://opencollective.com/maybeanerd",
+    "org": false
+  },
+  {
+    "id": "sponsor-104",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 373.78499940214016,
+      "y": 383.99212049609537
+    },
+    "name": "Jeremy",
+    "login": "guest-a24a4081",
+    "avatar": "https://images.opencollective.com/guest-a24a4081/avatar/460.png",
+    "amount": 5,
+    "link": "https://opencollective.com/guest-a24a4081",
+    "org": false
+  },
+  {
+    "id": "sponsor-105",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 165.08477651644495,
+      "y": 85.7132876314505
+    },
+    "name": "ginlon",
+    "login": "ginlon",
+    "avatar": "https://images.opencollective.com/ginlon/cc49f54/avatar/460.png",
+    "amount": 5,
+    "link": "https://opencollective.com/ginlon",
+    "org": false
+  },
+  {
+    "id": "sponsor-106",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 400.4145982439851,
+      "y": 353.02662101330645
+    },
+    "name": "Ari Palo",
+    "login": "aripalo",
+    "avatar": "https://avatars.githubusercontent.com/u/679146?u=890c695fa5b7ada652fc3c6190211bc4e96b1746&v=4",
+    "amount": 5,
+    "link": "https://github.com/aripalo",
+    "org": false
+  },
+  {
+    "id": "sponsor-107",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 124.34855192201893,
+      "y": 385.5673818461182
+    },
+    "name": "翠",
+    "login": "sapphi-red",
+    "avatar": "https://avatars.githubusercontent.com/u/49056869?u=ec70859392ec0140d60446f7815ad2bf857904fd&v=4",
+    "amount": 5,
+    "link": "https://github.com/sapphi-red",
+    "org": false
+  },
+  {
+    "id": "sponsor-108",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 250.8248504597256,
+      "y": 61.18178840669546
+    },
+    "name": "blackbird GmbH",
+    "login": "blackbirdUG",
+    "avatar": "https://avatars.githubusercontent.com/u/61544907?u=47c13f3eec39e9f0fa8e3bf4db9dac45699f4a90&v=4",
+    "amount": 5,
+    "link": "https://github.com/blackbirdUG",
+    "org": false
+  },
+  {
+    "id": "sponsor-109",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 131.68332860296346,
+      "y": 408.11555541466146
+    },
+    "name": "Jinjiang",
+    "login": "Jinjiang",
+    "avatar": "https://avatars.githubusercontent.com/u/206848?u=f3bf03cbf0c932c9c997641488f4a7e081cfa8b0&v=4",
+    "amount": 5,
+    "link": "https://github.com/Jinjiang",
+    "org": false
+  },
+  {
+    "id": "sponsor-110",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 365.6627522896373,
+      "y": 406.26874910277456
+    },
+    "name": "Scott Bedard",
+    "login": "scottbedard",
+    "avatar": "https://avatars.githubusercontent.com/u/7980426?u=cac77145af6aedea596ee033a7f7445c1db2b0f6&v=4",
+    "amount": 5,
+    "link": "https://github.com/scottbedard",
+    "org": false
+  },
+  {
+    "id": "sponsor-111",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 286.4712215736642,
+      "y": 62.17890027652365
+    },
+    "name": "Manuel Ehrenfeld",
+    "login": "nonlinearcom",
+    "avatar": "https://avatars.githubusercontent.com/u/7942973?u=aa9c4d6c9ce99ec8449efb67c7668fe3e42a0209&v=4",
+    "amount": 5,
+    "link": "https://github.com/nonlinearcom",
+    "org": false
+  },
+  {
+    "id": "sponsor-112",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 126.67235884559531,
+      "y": 108.18400645585666
+    },
+    "name": "Ryan Wang",
+    "login": "ruibaby",
+    "avatar": "https://avatars.githubusercontent.com/u/21301288?u=ef45e25e8726dbe7c9b353283c52af043105f0ee&v=4",
+    "amount": 5,
+    "link": "https://github.com/ruibaby",
+    "org": false
+  },
+  {
+    "id": "sponsor-113",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 399.1209235714956,
+      "y": 145.02571609514683
+    },
+    "name": "Wey Gu",
+    "login": "wey-gu",
+    "avatar": "https://avatars.githubusercontent.com/u/1651790?u=5a5ea37c495f7787f35172f0f86569daf5a5a65e&v=4",
+    "amount": 5,
+    "link": "https://github.com/wey-gu",
+    "org": false
+  },
+  {
+    "id": "sponsor-114",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 94.67831080613635,
+      "y": 356.15834063116694
+    },
+    "name": "Santosh Yadav",
+    "login": "santoshyadavdev",
+    "avatar": "https://avatars.githubusercontent.com/u/11923975?u=52073304b5412cce0f5526a2075e89285e73bb32&v=4",
+    "amount": 5,
+    "link": "https://github.com/santoshyadavdev",
+    "org": false
+  },
+  {
+    "id": "sponsor-115",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 80.15132888299672,
+      "y": 154.64097872190683
+    },
+    "name": "yyyanghj",
+    "login": "yyyanghj",
+    "avatar": "https://avatars.githubusercontent.com/u/34713301?u=cc905db1000f332998f708a154d9d5ef16c3c894&v=4",
+    "amount": 5,
+    "link": "https://github.com/yyyanghj",
+    "org": false
+  },
+  {
+    "id": "sponsor-116",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 422.37634418959396,
+      "y": 344.08789653735295
+    },
+    "name": "LongYinan",
+    "login": "Brooooooklyn",
+    "avatar": "https://avatars.githubusercontent.com/u/3468483?u=daf25d236ad2cc227470fa0da2d5bdf3dbb7feed&v=4",
+    "amount": 5,
+    "link": "https://github.com/Brooooooklyn",
+    "org": false
+  },
+  {
+    "id": "sponsor-117",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 218.49704002404033,
+      "y": 53.85480325134864
+    },
+    "name": "kazuya kawaguchi",
+    "login": "kazupon",
+    "avatar": "https://avatars.githubusercontent.com/u/72989?u=d4fc7a7d65aca9450523e366a63aaa791868d470&v=4",
+    "amount": 5,
+    "link": "https://github.com/kazupon",
+    "org": false
+  },
+  {
+    "id": "sponsor-118",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 73.20905902917039,
+      "y": 346.09403199253086
+    },
+    "name": "Maiquu",
+    "login": "ege-iliklier",
+    "avatar": "https://images.opencollective.com/ege-iliklier/avatar/460.png",
+    "amount": 5,
+    "link": "https://opencollective.com/ege-iliklier",
+    "org": false
+  },
+  {
+    "id": "sponsor-119",
+    "radius": 10.921294301269592,
+    "position": {
+      "x": 374.22483570374607,
+      "y": 110.20702993195201
+    },
+    "name": "BobbieGoede",
+    "login": "bobbiegoede",
+    "avatar": "https://images.opencollective.com/bobbiegoede/3d66468/avatar/460.png",
+    "amount": 5,
+    "link": "https://opencollective.com/bobbiegoede",
+    "org": false
+  },
+  {
+    "id": "sponsor-120",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 431.53897586419043,
+      "y": 207.21542626763835
+    },
+    "name": "Philippe Serhal",
+    "login": "serhalp",
+    "avatar": "https://avatars.githubusercontent.com/u/1377702?u=97edad0b41ef9cb95fd1825a62e244e6648c4681&v=4",
+    "amount": 4,
+    "link": "https://github.com/serhalp",
+    "org": false
+  },
+  {
+    "id": "sponsor-121",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 58.94606754335709,
+      "y": 255.7125482917258
+    },
+    "name": "Magenta Qin",
+    "login": "magentaqin",
+    "avatar": "https://avatars.githubusercontent.com/u/30370223?u=e3fca32e6e93b0a1c792fdaa9cc8637e8c721947&v=4",
+    "amount": 4,
+    "link": "https://github.com/magentaqin",
+    "org": false
+  },
+  {
+    "id": "sponsor-122",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 269.1310388883653,
+      "y": 441.03675102146184
+    },
+    "name": "Craig R Broughton",
+    "login": "CRBroughton",
+    "avatar": "https://avatars.githubusercontent.com/u/71838537?u=c83d61d33e56ad3e1c8d03b12f02d24da32511f5&v=4",
+    "amount": 4,
+    "link": "https://github.com/CRBroughton",
+    "org": false
+  },
+  {
+    "id": "sponsor-123",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 226.9711533575864,
+      "y": 441.03675102146184
+    },
+    "name": "Sent.dm",
+    "login": "sentdm",
+    "avatar": "https://avatars.githubusercontent.com/u/153308555?v=4",
+    "amount": 4,
+    "link": "https://github.com/sentdm",
+    "org": true
+  },
+  {
+    "id": "sponsor-124",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 61.45571178352395,
+      "y": 214.09884585913218
+    },
+    "name": "Tim van Herwijnen",
+    "login": "sneakylenny",
+    "avatar": "https://avatars.githubusercontent.com/u/60601502?u=666d92d2cbc96adbff6170320fc3c84c8d976fe4&v=4",
+    "amount": 4,
+    "link": "https://github.com/sneakylenny",
+    "org": false
+  },
+  {
+    "id": "sponsor-125",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 365.04930114735146,
+      "y": 88.48269129949196
+    },
+    "name": "Alexander Opalic",
+    "login": "alexanderop",
+    "avatar": "https://avatars.githubusercontent.com/u/33398393?u=3b615d7e298c0c637f67c0761d207fbaae57cef6&v=4",
+    "amount": 4,
+    "link": "https://github.com/alexanderop",
+    "org": false
+  },
+  {
+    "id": "sponsor-126",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 47.11758438698769,
+      "y": 275.96534134306637
+    },
+    "name": "Kauan Schaeffer",
+    "login": "K-Schaeffer",
+    "avatar": "https://avatars.githubusercontent.com/u/37464395?u=9cf9234dfad0337cbb0e6ac7e06a95776e37c5a5&v=4",
+    "amount": 4,
+    "link": "https://github.com/K-Schaeffer",
+    "org": false
+  },
+  {
+    "id": "sponsor-127",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 167.33495841679462,
+      "y": 437.7758838417411
+    },
+    "name": "Bjørge Næss",
+    "login": "bjoerge",
+    "avatar": "https://avatars.githubusercontent.com/u/876086?u=884522e3c4ca171fc3330ee5338162b802df4cc8&v=4",
+    "amount": 4,
+    "link": "https://github.com/bjoerge",
+    "org": false
+  },
+  {
+    "id": "sponsor-128",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 62.28428577424711,
+      "y": 325.19459054683904
+    },
+    "name": "koyama shigehito",
+    "login": "yamageji",
+    "avatar": "https://avatars.githubusercontent.com/u/71963890?u=1f5b7c8f3d41bead9d3578d49c3aaeebb12c0982&v=4",
+    "amount": 4,
+    "link": "https://github.com/yamageji",
+    "org": false
+  },
+  {
+    "id": "sponsor-129",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 447.91442391707574,
+      "y": 271.1573611649175
+    },
+    "name": "Markus Siegert",
+    "login": "mitsaucepls",
+    "avatar": "https://avatars.githubusercontent.com/u/125889913?u=7a4abdc9baa5462f4f9b31ae5e94fe190323fcad&v=4",
+    "amount": 4,
+    "link": "https://github.com/mitsaucepls",
+    "org": false
+  },
+  {
+    "id": "sponsor-130",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 317.4566845041062,
+      "y": 64.33533242135323
+    },
+    "name": "netr",
+    "login": "netr",
+    "avatar": "https://avatars.githubusercontent.com/u/14618594?u=c297cf5514e5a5f3cd83622a4f91fd6226741a64&v=4",
+    "amount": 4,
+    "link": "https://github.com/netr",
+    "org": false
+  },
+  {
+    "id": "sponsor-131",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 51.56523531527503,
+      "y": 192.83227313591328
+    },
+    "name": "Yusuke Nemoto",
+    "login": "kaakaa",
+    "avatar": "https://avatars.githubusercontent.com/u/1453749?u=40dd7d980136349d55819d95a0d09e3e13605c3c&v=4",
+    "amount": 4,
+    "link": "https://github.com/kaakaa",
+    "org": false
+  },
+  {
+    "id": "sponsor-132",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 396.043207762977,
+      "y": 376.2004913994966
+    },
+    "name": "Deniz Genctürk",
+    "login": "isokosan",
+    "avatar": "https://avatars.githubusercontent.com/u/1430946?u=e7ceb410ed1037236fcb8df19d8b9a8a9792dd58&v=4",
+    "amount": 4,
+    "link": "https://github.com/isokosan",
+    "org": false
+  },
+  {
+    "id": "sponsor-133",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 182.38952656814877,
+      "y": 68.40204350013593
+    },
+    "name": "Xie Yuhang",
+    "login": "xieyhn",
+    "avatar": "https://avatars.githubusercontent.com/u/38422259?u=875bbb63032ef6756bb027f4e9939dee981bd382&v=4",
+    "amount": 4,
+    "link": "https://github.com/xieyhn",
+    "org": false
+  },
+  {
+    "id": "sponsor-134",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 101.49135817790068,
+      "y": 379.763416171062
+    },
+    "name": "ナイトウコウスケ",
+    "login": "naitokosuke",
+    "avatar": "https://avatars.githubusercontent.com/u/102337893?u=b481cfbbd70df13ecc78d9bf93bf76744c6eae16&v=4",
+    "amount": 4,
+    "link": "https://github.com/naitokosuke",
+    "org": false
+  },
+  {
+    "id": "sponsor-135",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 64.00221881877744,
+      "y": 171.82654148683025
+    },
+    "name": "Guillaume Guerin",
+    "login": "Lyliya",
+    "avatar": "https://avatars.githubusercontent.com/u/22936229?u=5bdd10dfc37a1f10263f0476e07886d1ed1f4976&v=4",
+    "amount": 4,
+    "link": "https://github.com/Lyliya",
+    "org": false
+  },
+  {
+    "id": "sponsor-136",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 159.62123528651614,
+      "y": 62.7723408192054
+    },
+    "name": "kagan",
+    "login": "kagankan",
+    "avatar": "https://avatars.githubusercontent.com/u/34136752?u=4d75e5b7a3bd567567c340b60cd68e5b0612dfd1&v=4",
+    "amount": 4,
+    "link": "https://github.com/kagankan",
+    "org": false
+  },
+  {
+    "id": "sponsor-137",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 103.39943546569322,
+      "y": 118.04914007215754
+    },
+    "name": "tangyongjie",
+    "login": "tyj-321",
+    "avatar": "https://avatars.githubusercontent.com/u/65441198?u=f49de0f310b61409694a06f19e0538decd1c941a&v=4",
+    "amount": 4,
+    "link": "https://github.com/tyj-321",
+    "org": false
+  },
+  {
+    "id": "sponsor-138",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 78.85072675728921,
+      "y": 373.64047169663115
+    },
+    "name": "Dohyung Ahn",
+    "login": "adhrinae",
+    "avatar": "https://avatars.githubusercontent.com/u/14539203?u=e61940e12337812907dd36e04e951edaab0d275b&v=4",
+    "amount": 4,
+    "link": "https://github.com/adhrinae",
+    "org": false
+  },
+  {
+    "id": "sponsor-139",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 422.62832124407043,
+      "y": 143.14433945108686
+    },
+    "name": "Petar Stoyanov",
+    "login": "petsto",
+    "avatar": "https://avatars.githubusercontent.com/u/7047129?u=d3ee92e15e49a7ffe891b69ec8373cdc0f883022&v=4",
+    "amount": 4,
+    "link": "https://github.com/petsto",
+    "org": false
+  },
+  {
+    "id": "sponsor-140",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 140.76038929578857,
+      "y": 429.8812231644035
+    },
+    "name": null,
+    "login": "w2xi",
+    "avatar": "https://avatars.githubusercontent.com/u/57785259?u=721473edba9c335bba65dcb954753a494cb7b68d&v=4",
+    "amount": 4,
+    "link": "https://github.com/w2xi",
+    "org": false
+  },
+  {
+    "id": "sponsor-141",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 356.504741792642,
+      "y": 428.0004809056087
+    },
+    "name": "Wing-On Yuen",
+    "login": "woyuen",
+    "avatar": "https://avatars.githubusercontent.com/u/25850444?u=90eca697160f4158c3a20c826aa9d6b3608876e9&v=4",
+    "amount": 4,
+    "link": "https://github.com/woyuen",
+    "org": false
+  },
+  {
+    "id": "sponsor-142",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 398.08985850140954,
+      "y": 121.46570276249696
+    },
+    "name": "Felix Ranesberger",
+    "login": "felixranesberger",
+    "avatar": "https://avatars.githubusercontent.com/u/52704891?u=4c7f8481f3dcffafd1f7264d3b3fcb10b445fc31&v=4",
+    "amount": 4,
+    "link": "https://github.com/felixranesberger",
+    "org": false
+  },
+  {
+    "id": "sponsor-143",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 107.18530454728531,
+      "y": 94.90274001819694
+    },
+    "name": "Simo Mafuxwana",
+    "login": "dlodeprojuicer",
+    "avatar": "https://avatars.githubusercontent.com/u/2291356?u=60a1933a9944d71778248967f5f197b808615f51&v=4",
+    "amount": 4,
+    "link": "https://github.com/dlodeprojuicer",
+    "org": false
+  },
+  {
+    "id": "sponsor-144",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 141.7062966513747,
+      "y": 82.61748359826399
+    },
+    "name": "Cyole",
+    "login": "cyole",
+    "avatar": "https://avatars.githubusercontent.com/u/44540278?u=ab774fdb8c55ab8ee509ce536d99ec5ef890cc95&v=4",
+    "amount": 4,
+    "link": "https://github.com/cyole",
+    "org": false
+  },
+  {
+    "id": "sponsor-145",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 190.49641099046306,
+      "y": 443.95337273830773
+    },
+    "name": "Perpetual Education",
+    "login": "perpetual-education",
+    "avatar": "https://avatars.githubusercontent.com/u/149908464?v=4",
+    "amount": 4,
+    "link": "https://github.com/perpetual-education",
+    "org": true
+  },
+  {
+    "id": "sponsor-146",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 304.41592668692493,
+      "y": 445.074325159861
+    },
+    "name": "Maxime Bonvin",
+    "login": "Alaanor",
+    "avatar": "https://avatars.githubusercontent.com/u/8039130?u=1050985fbb946a332a99222d54f548384d871620&v=4",
+    "amount": 4,
+    "link": "https://github.com/Alaanor",
+    "org": false
+  },
+  {
+    "id": "sponsor-147",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 119.53614007207577,
+      "y": 74.96419689186703
+    },
+    "name": "Masayuki Higashino",
+    "login": "mh61503891",
+    "avatar": "https://avatars.githubusercontent.com/u/706275?u=c7d7e77e3753ab93756ff9d933de1a42ec7462ac&v=4",
+    "amount": 4,
+    "link": "https://github.com/mh61503891",
+    "org": false
+  },
+  {
+    "id": "sponsor-148",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 394.567621134611,
+      "y": 98.27772130457635
+    },
+    "name": "Cats Juice",
+    "login": "CatsJuice",
+    "avatar": "https://avatars.githubusercontent.com/u/39363750?u=11791aed884304ac15ab3efc472e0973a6ba57cc&v=4",
+    "amount": 4,
+    "link": "https://github.com/CatsJuice",
+    "org": false
+  },
+  {
+    "id": "sponsor-149",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 269.079605178192,
+      "y": 46.25191052434093
+    },
+    "name": null,
+    "login": "zhengbangbo",
+    "avatar": "https://avatars.githubusercontent.com/u/18254135?u=f74c062906d6e261c229a0402b16765a2f1ab1cd&v=4",
+    "amount": 4,
+    "link": "https://github.com/zhengbangbo",
+    "org": false
+  },
+  {
+    "id": "sponsor-150",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 446.96982068068496,
+      "y": 224.87831585032578
+    },
+    "name": "Marco",
+    "login": "marco-gattelli",
+    "avatar": "https://avatars.githubusercontent.com/u/39620741?u=a0565aaecf8aeee77d624b2fcc0652dde3f5b2e1&v=4",
+    "amount": 4,
+    "link": "https://github.com/marco-gattelli",
+    "org": false
+  },
+  {
+    "id": "sponsor-151",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 48.02917047089272,
+      "y": 234.9541765234449
+    },
+    "name": "Tsuyoshi Yamaguchi",
+    "login": "Tsuyoshi84",
+    "avatar": "https://avatars.githubusercontent.com/u/11254699?u=48cf8fe456fa7f1e0f861d53cec15e0f901b5439&v=4",
+    "amount": 4,
+    "link": "https://github.com/Tsuyoshi84",
+    "org": false
+  },
+  {
+    "id": "sponsor-152",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 461.581356500292,
+      "y": 243.22475041274916
+    },
+    "name": "Luke Bennett",
+    "login": "lukebennett88",
+    "avatar": "https://avatars.githubusercontent.com/u/3422401?v=4",
+    "amount": 4,
+    "link": "https://github.com/lukebennett88",
+    "org": false
+  },
+  {
+    "id": "sponsor-153",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 444.098051209804,
+      "y": 334.9061337686059
+    },
+    "name": "JW",
+    "login": "JiangWeixian",
+    "avatar": "https://avatars.githubusercontent.com/u/6839576?u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4",
+    "amount": 4,
+    "link": "https://github.com/JiangWeixian",
+    "org": false
+  },
+  {
+    "id": "sponsor-154",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 38.00432861051854,
+      "y": 213.7506111195928
+    },
+    "name": "Manuel Meister",
+    "login": "manuelmeister",
+    "avatar": "https://avatars.githubusercontent.com/u/3001985?u=6dab55cc7bc6877e56cdc3a18a9a17fd4d35403d&v=4",
+    "amount": 4,
+    "link": "https://github.com/manuelmeister",
+    "org": false
+  },
+  {
+    "id": "sponsor-155",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 439.17105670908705,
+      "y": 185.03796062933995
+    },
+    "name": "Spike",
+    "login": "Spike-Leung",
+    "avatar": "https://avatars.githubusercontent.com/u/30440218?u=d55a3f19835f0cb6f7e52f0e154c069be6f28727&v=4",
+    "amount": 4,
+    "link": "https://github.com/Spike-Leung",
+    "org": false
+  },
+  {
+    "id": "sponsor-156",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 238.3691845338633,
+      "y": 41.156961072690734
+    },
+    "name": "LADYBIRD",
+    "login": "l4dybird",
+    "avatar": "https://avatars.githubusercontent.com/u/57829584?u=6902c4d7cf8856193dd1605066de26fe33d0798f&v=4",
+    "amount": 4,
+    "link": "https://github.com/l4dybird",
+    "org": false
+  },
+  {
+    "id": "sponsor-157",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 330.2231114384356,
+      "y": 438.8082434234418
+    },
+    "name": "timching",
+    "login": "timching",
+    "avatar": "https://avatars.githubusercontent.com/u/25523465?u=a1cc50a1343ad8ded73f80606a47d69132cd9d15&v=4",
+    "amount": 4,
+    "link": "https://github.com/timching",
+    "org": false
+  },
+  {
+    "id": "sponsor-158",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 249.3185505136773,
+      "y": 453.58880043834176
+    },
+    "name": "がっちゃん",
+    "login": "gatchan0807",
+    "avatar": "https://avatars.githubusercontent.com/u/16623885?u=615eb55256d35ed34b9710f1623790625b41bf6b&v=4",
+    "amount": 4,
+    "link": "https://github.com/gatchan0807",
+    "org": false
+  },
+  {
+    "id": "sponsor-159",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 228.5253272284806,
+      "y": 464.43916935248
+    },
+    "name": "Maksym Osovitnii",
+    "login": "MaksymOsovitnii",
+    "avatar": "https://avatars.githubusercontent.com/u/45031013?u=67d9da94b75e619ed675a431e611a0d01bd51aa9&v=4",
+    "amount": 4,
+    "link": "https://github.com/MaksymOsovitnii",
+    "org": false
+  },
+  {
+    "id": "sponsor-160",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 303.28724899192156,
+      "y": 45.645342121008326
+    },
+    "name": "Richard Harrah",
+    "login": "ToppleTheNun",
+    "avatar": "https://avatars.githubusercontent.com/u/1672786?u=e750ef26e965ac7e339e44f0c3adee4bf33d6084&v=4",
+    "amount": 4,
+    "link": "https://github.com/ToppleTheNun",
+    "org": false
+  },
+  {
+    "id": "sponsor-161",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 39.79400834242284,
+      "y": 298.24658623827855
+    },
+    "name": "Siddharth Gelera (reaper)",
+    "login": "barelyhuman",
+    "avatar": "https://avatars.githubusercontent.com/u/43572006?u=49e7710c0d1602408ee0b6c125cf2f05b4385608&v=4",
+    "amount": 4,
+    "link": "https://github.com/barelyhuman",
+    "org": false
+  },
+  {
+    "id": "sponsor-162",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 285.0316096622308,
+      "y": 458.2779948636629
+    },
+    "name": "David",
+    "login": "dvdrtrgn",
+    "avatar": "https://avatars.githubusercontent.com/u/75495?u=2a61b8ac654c7d0422cfd6f50de448921a7fff74&v=4",
+    "amount": 4,
+    "link": "https://github.com/dvdrtrgn",
+    "org": false
+  },
+  {
+    "id": "sponsor-163",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 205.17403295043496,
+      "y": 462.2469796478566
+    },
+    "name": "PatrickJS",
+    "login": "PatrickJS",
+    "avatar": "https://avatars.githubusercontent.com/u/1016365?u=47d964a94849ae3bd59cc1a66e5f4aad0c43d2a2&v=4",
+    "amount": 4,
+    "link": "https://github.com/PatrickJS",
+    "org": false
+  },
+  {
+    "id": "sponsor-164",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 355.85074754655994,
+      "y": 66.907815823274
+    },
+    "name": "Zixuan Chen",
+    "login": "zxch3n",
+    "avatar": "https://avatars.githubusercontent.com/u/18425020?u=e43e518d92db045ccc3c7dc4b970a67485893a40&v=4",
+    "amount": 4,
+    "link": "https://github.com/zxch3n",
+    "org": false
+  },
+  {
+    "id": "sponsor-165",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 447.0980784273387,
+      "y": 162.96419867449163
+    },
+    "name": "沈青川",
+    "login": "ShenQingchuan",
+    "avatar": "https://avatars.githubusercontent.com/u/46062972?u=dc4bc666aac424a8f0153e1845bdef901ae5dc48&v=4",
+    "amount": 4,
+    "link": "https://github.com/ShenQingchuan",
+    "org": false
+  },
+  {
+    "id": "sponsor-166",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 195.438080121969,
+      "y": 48.912972452134994
+    },
+    "name": "Matan Kushner",
+    "login": "matchai",
+    "avatar": "https://avatars.githubusercontent.com/u/4658208?u=c28d73978ca28a4b4ef32dce61fc54561a9a4cd2&v=4",
+    "amount": 4,
+    "link": "https://github.com/matchai",
+    "org": false
+  },
+  {
+    "id": "sponsor-167",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 391.758253723389,
+      "y": 399.25971534653263
+    },
+    "name": "Yetrina Battad",
+    "login": "yetti",
+    "avatar": "https://avatars.githubusercontent.com/u/12688?u=42e2a0689d0f69bf8a031ce365f9ae412099925e&v=4",
+    "amount": 4,
+    "link": "https://github.com/yetti",
+    "org": false
+  },
+  {
+    "id": "sponsor-168",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 418.2010028204634,
+      "y": 368.5114889706132
+    },
+    "name": "Naoya Miyagawa",
+    "login": "NaoyaMiyagawa",
+    "avatar": "https://avatars.githubusercontent.com/u/38244632?u=42ca3d12a7735d005c96ec87abd64aab22cc1af1&v=4",
+    "amount": 4,
+    "link": "https://github.com/NaoyaMiyagawa",
+    "org": false
+  },
+  {
+    "id": "sponsor-169",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 79.12883648706116,
+      "y": 131.08059178294417
+    },
+    "name": "Kiyohiko Heima",
+    "login": "kiyopikko",
+    "avatar": "https://avatars.githubusercontent.com/u/6188979?u=1e04da3df7831bb8de271fbaf692404640bffade&v=4",
+    "amount": 4,
+    "link": "https://github.com/kiyopikko",
+    "org": false
+  },
+  {
+    "id": "sponsor-170",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 383.8120937932639,
+      "y": 421.32659511069096
+    },
+    "name": null,
+    "login": "rjwaberski",
+    "avatar": "https://avatars.githubusercontent.com/u/12544692?u=6e672e74e1ec35b348d6ae09b70b180001ef3db0&v=4",
+    "amount": 4,
+    "link": "https://github.com/rjwaberski",
+    "org": false
+  },
+  {
+    "id": "sponsor-171",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 107.78762848939118,
+      "y": 402.35645979793054
+    },
+    "name": "ubugeeei",
+    "login": "ubugeeei",
+    "avatar": "https://avatars.githubusercontent.com/u/71201308?u=536018d050af3f13a99026d03a5d1ab57bda6a20&v=4",
+    "amount": 4,
+    "link": "https://github.com/ubugeeei",
+    "org": false
+  },
+  {
+    "id": "sponsor-172",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 463.4457058007756,
+      "y": 288.73199980160075
+    },
+    "name": "Marco Solazzi",
+    "login": "dwightjack",
+    "avatar": "https://avatars.githubusercontent.com/u/104721?u=71fc42acc26ef894f084ca1080d60070072c9569&v=4",
+    "amount": 4,
+    "link": "https://github.com/dwightjack",
+    "org": false
+  },
+  {
+    "id": "sponsor-173",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 114.91782124358545,
+      "y": 424.7003402006041
+    },
+    "name": "Arnaud Barré",
+    "login": "ArnaudBarre",
+    "avatar": "https://avatars.githubusercontent.com/u/14235743?u=1e3fb343c89f3f3ab51080295026475541c390f8&v=4",
+    "amount": 4,
+    "link": "https://github.com/ArnaudBarre",
+    "org": false
+  },
+  {
+    "id": "sponsor-174",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 82.28407198506895,
+      "y": 107.83982739979504
+    },
+    "name": "Austin Akers",
+    "login": "BboyAkers",
+    "avatar": "https://avatars.githubusercontent.com/u/11778717?u=fcae62f35eedad58c3d986d2adb60b40a8854952&v=4",
+    "amount": 4,
+    "link": "https://github.com/BboyAkers",
+    "org": false
+  },
+  {
+    "id": "sponsor-175",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 439.9725325841804,
+      "y": 359.7885805159449
+    },
+    "name": null,
+    "login": "vaaski",
+    "avatar": "https://avatars.githubusercontent.com/u/17879327?u=21d449dd650861931e86be8a693826859dea1484&v=4",
+    "amount": 4,
+    "link": "https://github.com/vaaski",
+    "org": false
+  },
+  {
+    "id": "sponsor-176",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 421.4786624169236,
+      "y": 119.71856465617117
+    },
+    "name": "replygirl",
+    "login": "replygirl",
+    "avatar": "https://avatars.githubusercontent.com/u/1940038?u=f1b018948074e773a64857c9bb2b5127c2cb565f&v=4",
+    "amount": 4,
+    "link": "https://github.com/replygirl",
+    "org": false
+  },
+  {
+    "id": "sponsor-177",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 173.72028019712542,
+      "y": 460.34392110514926
+    },
+    "name": "Fred Pallesen",
+    "login": "xparagon",
+    "avatar": "https://avatars.githubusercontent.com/u/35865041?u=534b50fa7c3e62b21c7bb8207c87bb720a850f35&v=4",
+    "amount": 4,
+    "link": "https://github.com/xparagon",
+    "org": false
+  },
+  {
+    "id": "sponsor-178",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 40.55015993109535,
+      "y": 172.12583079441526
+    },
+    "name": "TJ Koblentz",
+    "login": "tjk",
+    "avatar": "https://avatars.githubusercontent.com/u/109224?u=83d2a6bdd5e0f876d11a87770e8c598294c6b18f&v=4",
+    "amount": 4,
+    "link": "https://github.com/tjk",
+    "org": false
+  },
+  {
+    "id": "sponsor-179",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 136.50984074657816,
+      "y": 58.778334987929384
+    },
+    "name": "Peter Shih",
+    "login": "peter50216",
+    "avatar": "https://avatars.githubusercontent.com/u/891109?u=259c69c0fcf505cf806558a7b7fe80c036eb76e0&v=4",
+    "amount": 4,
+    "link": "https://github.com/peter50216",
+    "org": false
+  },
+  {
+    "id": "sponsor-180",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 57.581667206594204,
+      "y": 363.75534418152375
+    },
+    "name": "fripig",
+    "login": "fripig",
+    "avatar": "https://avatars.githubusercontent.com/u/999359?u=65399997b037455cd1fe1ec1560c19ae491f1822&v=4",
+    "amount": 4,
+    "link": "https://github.com/fripig",
+    "org": false
+  },
+  {
+    "id": "sponsor-181",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 321.88113969555195,
+      "y": 460.72855700700796
+    },
+    "name": "Alex Riviere",
+    "login": "fimion",
+    "avatar": "https://avatars.githubusercontent.com/u/13134182?u=507cee6ea8ebebfc5c5a33910dfca595f529bf84&v=4",
+    "amount": 4,
+    "link": "https://github.com/fimion",
+    "org": false
+  },
+  {
+    "id": "sponsor-182",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 454.6019015255815,
+      "y": 202.70085021202738
+    },
+    "name": "Diu",
+    "login": "ddiu8081",
+    "avatar": "https://avatars.githubusercontent.com/u/1998168?u=1a3611db57af3878d7e33af99543b0a2494916fb&v=4",
+    "amount": 4,
+    "link": "https://github.com/ddiu8081",
+    "org": false
+  },
+  {
+    "id": "sponsor-183",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 385.3381005618047,
+      "y": 76.71607502797934
+    },
+    "name": "Enzo Innocenzi",
+    "login": "innocenzi",
+    "avatar": "https://avatars.githubusercontent.com/u/16060559?u=cf061757407ef529958cf24bac8d2f699ad6e6ed&v=4",
+    "amount": 4,
+    "link": "https://github.com/innocenzi",
+    "org": false
+  },
+  {
+    "id": "sponsor-184",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 35.51034171459193,
+      "y": 254.78767260283945
+    },
+    "name": "Kuro Hsu",
+    "login": "kurotanshi",
+    "avatar": "https://avatars.githubusercontent.com/u/362912?u=28a005fabf55d7f646da4960f8dd26c08aff20b8&v=4",
+    "amount": 4,
+    "link": "https://github.com/kurotanshi",
+    "org": false
+  },
+  {
+    "id": "sponsor-185",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 148.65981151066498,
+      "y": 451.9648770475827
+    },
+    "name": "Wei",
+    "login": "fi3ework",
+    "avatar": "https://avatars.githubusercontent.com/u/12322740?u=056f396cfc1df6fd7e1bd486e0578f6fd0158761&v=4",
+    "amount": 4,
+    "link": "https://github.com/fi3ework",
+    "org": false
+  },
+  {
+    "id": "sponsor-186",
+    "radius": 10.792698868529405,
+    "position": {
+      "x": 455.6123720430795,
+      "y": 314.473095426026
+    },
+    "name": "miyaoka",
+    "login": "miyaoka",
+    "avatar": "https://avatars.githubusercontent.com/u/1443118?u=f6a578a21c6901332ab81d7529c1f5e7729d612c&v=4",
+    "amount": 4,
+    "link": "https://github.com/miyaoka",
+    "org": false
+  },
+  {
+    "id": "sponsor-187",
+    "radius": 10.772507711381534,
+    "position": {
+      "x": 470.49635354098893,
+      "y": 264.89650045927675
+    },
+    "name": "华丽",
+    "login": "6e9a280aa13111ebbc5152540025c377",
+    "avatar": "https://pic1.afdiancdn.com/user/6e9a280aa13111ebbc5152540025c377/avatar/7ea1f85c1335022384dae07a53e19934_w500_h500_s28.jpeg",
+    "amount": 3.8461538461538463,
+    "link": "https://afdian.com/u/6e9a280aa13111ebbc5152540025c377",
+    "org": false
+  },
+  {
+    "id": "sponsor-188",
+    "radius": 10.51929848263339,
+    "position": {
+      "x": 39.41243648489666,
+      "y": 321.4240136786044
+    },
+    "name": "Robin Genz",
+    "login": "robingenz",
+    "avatar": "https://avatars.githubusercontent.com/u/13857929?u=bc79facfce465b4217c46f28e23b37d829c8f970&v=4",
+    "amount": 2,
+    "link": "https://github.com/robingenz",
+    "org": false
+  },
+  {
+    "id": "sponsor-189",
+    "radius": 10.51929848263339,
+    "position": {
+      "x": 23.96211819491569,
+      "y": 274.88685849116894
+    },
+    "name": "Liu Bo",
+    "login": "liulinboyi",
+    "avatar": "https://avatars.githubusercontent.com/u/41336612?u=dde9a038da269b0035f87e3ecf87a1d0ef49a30d&v=4",
+    "amount": 2,
+    "link": "https://github.com/liulinboyi",
+    "org": false
+  },
+  {
+    "id": "sponsor-190",
+    "radius": 10.51929848263339,
+    "position": {
+      "x": 350.3297684923564,
+      "y": 450.3434539525151
+    },
+    "name": "Andrey Novikov",
+    "login": "Envek",
+    "avatar": "https://avatars.githubusercontent.com/u/264400?u=94a52ccde1690492ab501e89a400878548f7b66c&v=4",
+    "amount": 2,
+    "link": "https://github.com/Envek",
+    "org": false
+  },
+  {
+    "id": "sponsor-191",
+    "radius": 10.51929848263339,
+    "position": {
+      "x": 337.5180465094146,
+      "y": 52.721526226741844
+    },
+    "name": "Julien Calixte",
+    "login": "jcalixte",
+    "avatar": "https://avatars.githubusercontent.com/u/3417063?u=4b7fb12caa40f3a99692e1c8249d945653344a48&v=4",
+    "amount": 2,
+    "link": "https://github.com/jcalixte",
+    "org": false
+  },
+  {
+    "id": "sponsor-192",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 265.3062250741134,
+      "y": 470.16665897387657
+    },
+    "name": "Anthony Lu",
+    "login": "tonylu110",
+    "avatar": "https://avatars.githubusercontent.com/u/58923223?u=9c7cc26e27fbe5b426b4cab3eda7119b0f28ecf6&v=4",
+    "amount": 1,
+    "link": "https://github.com/tonylu110",
+    "org": false
+  },
+  {
+    "id": "sponsor-193",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 57.51901190962076,
+      "y": 149.7267867450309
+    },
+    "name": "Kanon",
+    "login": "ysknsid25",
+    "avatar": "https://avatars.githubusercontent.com/u/44870505?u=998b9394b6dda1c7f3e04c3a2998abdb494a8635&v=4",
+    "amount": 1,
+    "link": "https://github.com/ysknsid25",
+    "org": false
+  },
+  {
+    "id": "sponsor-194",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 28.534269141878923,
+      "y": 192.75658565673672
+    },
+    "name": "YONGQI",
+    "login": "holyfata",
+    "avatar": "https://avatars.githubusercontent.com/u/206218794?u=d75e3f4b0a38524ea33f6e6fa7035378bc14c763&v=4",
+    "amount": 1,
+    "link": "https://github.com/holyfata",
+    "org": false
+  },
+  {
+    "id": "sponsor-195",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 256.5026637784751,
+      "y": 26.95808569610361
+    },
+    "name": "Atlas Yiğit Aydın",
+    "login": "atlaxt",
+    "avatar": "https://avatars.githubusercontent.com/u/137510980?u=6be4a5d0aac4ea7c30e464527d959eb828a3b1bd&v=4",
+    "amount": 1,
+    "link": "https://github.com/atlaxt",
+    "org": false
+  },
+  {
+    "id": "sponsor-196",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 47.64782723747038,
+      "y": 342.97675051057337
+    },
+    "name": "Simão Gomes Viana",
+    "login": "xdevs23",
+    "avatar": "https://avatars.githubusercontent.com/u/6959245?u=3743f89c41baa1cff175c0ad33484533e0d05b02&v=4",
+    "amount": 1,
+    "link": "https://github.com/xdevs23",
+    "org": false
+  },
+  {
+    "id": "sponsor-197",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 285.9100306512686,
+      "y": 30.530335861800467
+    },
+    "name": "Syntax",
+    "login": "syntaxfm",
+    "avatar": "https://avatars.githubusercontent.com/u/130389858?v=4",
+    "amount": 1,
+    "link": "https://github.com/syntaxfm",
+    "org": true
+  },
+  {
+    "id": "sponsor-198",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 413.3890471259598,
+      "y": 391.3514975795565
+    },
+    "name": "Myinstafollow - Buy Instagram Followers",
+    "login": "myinstafollow",
+    "avatar": "https://images.opencollective.com/myinstafollow/bce918d/avatar/460.png",
+    "amount": 1,
+    "link": "https://opencollective.com/myinstafollow",
+    "org": false
+  },
+  {
+    "id": "sponsor-199",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 445.44274928019263,
+      "y": 139.9926724542069
+    },
+    "name": "Cong Zhang",
+    "login": "dancerphil",
+    "avatar": "https://avatars.githubusercontent.com/u/7264444?u=65d2f47b8f17623ba0999823ccb4948db8e09079&v=4",
+    "amount": 1,
+    "link": "https://github.com/dancerphil",
+    "org": false
+  },
+  {
+    "id": "sponsor-200",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 434.89488875615893,
+      "y": 384.3779726340027
+    },
+    "name": "Felix Spöttel",
+    "login": "fspoettel",
+    "avatar": "https://avatars.githubusercontent.com/u/1682504?u=d00c78e67d5d5c89a68522b8a200f1fa8a396024&v=4",
+    "amount": 1,
+    "link": "https://github.com/fspoettel",
+    "org": false
+  },
+  {
+    "id": "sponsor-201",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 56.43658402658741,
+      "y": 127.1445011151949
+    },
+    "name": "Norman",
+    "login": "nkoehring",
+    "avatar": "https://avatars.githubusercontent.com/u/246402?u=5a93d26faaa0fb829fe03480f5c5a67dadd33f47&v=4",
+    "amount": 1,
+    "link": "https://github.com/nkoehring",
+    "org": false
+  },
+  {
+    "id": "sponsor-202",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 85.54516547328055,
+      "y": 396.3811798503824
+    },
+    "name": "𝑾𝒖𝒙𝒉",
+    "login": "Wxh16144",
+    "avatar": "https://avatars.githubusercontent.com/u/32004925?u=1756bf59f926e629b26c68ce20a30470872bb65e&v=4",
+    "amount": 1,
+    "link": "https://github.com/Wxh16144",
+    "org": false
+  },
+  {
+    "id": "sponsor-203",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 374.489941910582,
+      "y": 442.38671419275767
+    },
+    "name": "Sam Blowes",
+    "login": "blowsie",
+    "avatar": "https://avatars.githubusercontent.com/u/308572?u=de44132d70bb0ce1c968474d4cb769cc8e1124ee&v=4",
+    "amount": 1,
+    "link": "https://github.com/blowsie",
+    "org": false
+  },
+  {
+    "id": "sponsor-204",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 172.94072544675032,
+      "y": 43.98345279074442
+    },
+    "name": null,
+    "login": "MatyiFKBT",
+    "avatar": "https://avatars.githubusercontent.com/u/6183867?u=106e2533d8146d2bb6237bf740a0e743a5317c22&v=4",
+    "amount": 1,
+    "link": "https://github.com/MatyiFKBT",
+    "org": false
+  },
+  {
+    "id": "sponsor-205",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 124.12631677368321,
+      "y": 445.81040276675463
+    },
+    "name": "Ayden",
+    "login": "aydengen",
+    "avatar": "https://avatars.githubusercontent.com/u/34738584?u=9d6d71cf3f97d2e14bfc2e761cb15eb940b9f0c3&v=4",
+    "amount": 1,
+    "link": "https://github.com/aydengen",
+    "org": false
+  },
+  {
+    "id": "sponsor-206",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 63.60964561146139,
+      "y": 390.9072194211134
+    },
+    "name": "Jeff Delaney",
+    "login": "codediodeio",
+    "avatar": "https://avatars.githubusercontent.com/u/10172199?u=da57a3907eedd829c3c48b16def4392666a722d2&v=4",
+    "amount": 1,
+    "link": "https://github.com/codediodeio",
+    "org": false
+  },
+  {
+    "id": "sponsor-207",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 86.31449278260692,
+      "y": 85.1641391044115
+    },
+    "name": "Marcel Gundermann",
+    "login": "marcelgundermann",
+    "avatar": "https://avatars.githubusercontent.com/u/26166998?u=3fc245a65d7f5458ef1ecd45aa4ff36b39ab1344&v=4",
+    "amount": 1,
+    "link": "https://github.com/marcelgundermann",
+    "org": false
+  },
+  {
+    "id": "sponsor-208",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 211.00580599205847,
+      "y": 31.940139962878277
+    },
+    "name": "featherlight",
+    "login": "zcong1993",
+    "avatar": "https://avatars.githubusercontent.com/u/18305255?u=0f7d4f8df8ed3bb2115f2b5963ea68a087c49ab2&v=4",
+    "amount": 1,
+    "link": "https://github.com/zcong1993",
+    "org": false
+  },
+  {
+    "id": "sponsor-209",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 230.0113252226898,
+      "y": 19.695895879899183
+    },
+    "name": "Michael Zheng",
+    "login": "headwindz",
+    "avatar": "https://avatars.githubusercontent.com/u/7504237?u=79498fc681f55c9cf01ce463dd86f7fbb228eebc&v=4",
+    "amount": 1,
+    "link": "https://github.com/headwindz",
+    "org": false
+  },
+  {
+    "id": "sponsor-210",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 417.564481959687,
+      "y": 97.0225226483054
+    },
+    "name": "Björn",
+    "login": "beejaz",
+    "avatar": "https://avatars.githubusercontent.com/u/9569157?v=4",
+    "amount": 1,
+    "link": "https://github.com/beejaz",
+    "org": false
+  },
+  {
+    "id": "sponsor-211",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 461.0472824278658,
+      "y": 350.4995520144974
+    },
+    "name": "Nick Lin",
+    "login": "unickhow",
+    "avatar": "https://avatars.githubusercontent.com/u/22793771?v=4",
+    "amount": 1,
+    "link": "https://github.com/unickhow",
+    "org": false
+  },
+  {
+    "id": "sponsor-212",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 302.5430359882987,
+      "y": 473.2373090023965
+    },
+    "name": "Jake",
+    "login": "shadskii",
+    "avatar": "https://avatars.githubusercontent.com/u/7563237?u=836576253757fe47825c526d9ee7d360fa20334c&v=4",
+    "amount": 1,
+    "link": "https://github.com/shadskii",
+    "org": false
+  },
+  {
+    "id": "sponsor-213",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 323.57168673468607,
+      "y": 34.73788059531259
+    },
+    "name": "Sean",
+    "login": "seandlg",
+    "avatar": "https://avatars.githubusercontent.com/u/16638561?u=8b2289c304219b30002d4f363a3f88d7f09f6767&v=4",
+    "amount": 1,
+    "link": "https://github.com/seandlg",
+    "org": false
+  },
+  {
+    "id": "sponsor-214",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 469.52896659185353,
+      "y": 220.23977435183434
+    },
+    "name": "bushuai",
+    "login": "bushuai",
+    "avatar": "https://avatars.githubusercontent.com/u/1875256?v=4",
+    "amount": 1,
+    "link": "https://github.com/bushuai",
+    "org": false
+  },
+  {
+    "id": "sponsor-215",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 25.007637495013597,
+      "y": 234.29073781856815
+    },
+    "name": "Jess",
+    "login": "JessicaSachs",
+    "avatar": "https://avatars.githubusercontent.com/u/2801156?u=73d135070dd572a64d4a3ad271d682b975b0f061&v=4",
+    "amount": 1,
+    "link": "https://github.com/JessicaSachs",
+    "org": false
+  },
+  {
+    "id": "sponsor-216",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 375.9600685791256,
+      "y": 55.68077974584773
+    },
+    "name": "Tmk",
+    "login": "tmkx",
+    "avatar": "https://avatars.githubusercontent.com/u/13805071?u=ea1c02ac5b8c0be74b90c41f1c8fc9b2498a4385&v=4",
+    "amount": 1,
+    "link": "https://github.com/tmkx",
+    "org": false
+  },
+  {
+    "id": "sponsor-217",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 14.974939128954816,
+      "y": 214.03052464384695
+    },
+    "name": "lifeng1992",
+    "login": "lifeng1992",
+    "avatar": "https://avatars.githubusercontent.com/u/10074335?v=4",
+    "amount": 1,
+    "link": "https://github.com/lifeng1992",
+    "org": false
+  },
+  {
+    "id": "sponsor-218",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 483.93169436500784,
+      "y": 237.66655566915952
+    },
+    "name": "Robert Shaw",
+    "login": "xiaoluoboding",
+    "avatar": "https://avatars.githubusercontent.com/u/6118824?u=e9472c1e1b9620f7cc8f8acc071234a669b3d243&v=4",
+    "amount": 1,
+    "link": "https://github.com/xiaoluoboding",
+    "org": false
+  },
+  {
+    "id": "sponsor-219",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 461.8141272121745,
+      "y": 180.8281518846543
+    },
+    "name": "Łukasz Chojnicki",
+    "login": "chojnicki",
+    "avatar": "https://avatars.githubusercontent.com/u/34774522?u=9637e6adf4e0c488badabe1ec98bb0f0d6f9df50&v=4",
+    "amount": 1,
+    "link": "https://github.com/chojnicki",
+    "org": false
+  },
+  {
+    "id": "sponsor-220",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 477.4126172754437,
+      "y": 307.0447416862395
+    },
+    "name": null,
+    "login": "fratzinger",
+    "avatar": "https://avatars.githubusercontent.com/u/22286818?u=a91967911b0aa7c8424c7fdabbd6acd1e37d4e0e&v=4",
+    "amount": 1,
+    "link": "https://github.com/fratzinger",
+    "org": false
+  },
+  {
+    "id": "sponsor-221",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 16.829400733261906,
+      "y": 296.49789277403494
+    },
+    "name": "chengpeiquan",
+    "login": "chengpeiquan",
+    "avatar": "https://avatars.githubusercontent.com/u/24845958?u=ccd4c5e3ff2c1f9a2397857acd7cd91e44cd6cce&v=4",
+    "amount": 1,
+    "link": "https://github.com/chengpeiquan",
+    "org": false
+  },
+  {
+    "id": "sponsor-222",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 245.14053676673237,
+      "y": 480.3880233387264
+    },
+    "name": "John",
+    "login": "robokozo",
+    "avatar": "https://avatars.githubusercontent.com/u/1719221?u=b5739798ee9a3d713f5ca3bd3d6a086c13d229a3&v=4",
+    "amount": 1,
+    "link": "https://github.com/robokozo",
+    "org": false
+  },
+  {
+    "id": "sponsor-223",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 188.4326429764733,
+      "y": 478.06333173088626
+    },
+    "name": "Anand Chowdhary",
+    "login": "AnandChowdhary",
+    "avatar": "https://avatars.githubusercontent.com/u/2841780?u=747e554b3a7f12eb20b7910e1c87d817844f714f&v=4",
+    "amount": 1,
+    "link": "https://github.com/AnandChowdhary",
+    "org": false
+  },
+  {
+    "id": "sponsor-224",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 34.91090472437227,
+      "y": 149.7958076822896
+    },
+    "name": "Pete",
+    "login": "virtuoushub",
+    "avatar": "https://avatars.githubusercontent.com/u/4303638?u=36dfad9d661e7e5afadef20ab87df61a16989352&v=4",
+    "amount": 1,
+    "link": "https://github.com/virtuoushub",
+    "org": false
+  },
+  {
+    "id": "sponsor-225",
+    "radius": 10.369820871248496,
+    "position": {
+      "x": 485.55837195047553,
+      "y": 282.2929682574524
+    },
+    "name": "yihong",
+    "login": "yihong0618",
+    "avatar": "https://avatars.githubusercontent.com/u/15976103?u=9a784422ed716bd783f231b1e080656363de9b7b&v=4",
+    "amount": 1,
+    "link": "https://github.com/yihong0618",
+    "org": false
+  },
+  {
+    "id": "sponsor-226",
+    "radius": 10.343479882144313,
+    "position": {
+      "x": 469.87491089064315,
+      "y": 159.733965733831
+    },
+    "name": "Yufan You",
+    "login": "ouuan",
+    "avatar": "https://images.opencollective.com/ouuan/fce9809/avatar/460.png",
+    "amount": 0.8333333333333334,
+    "link": "https://opencollective.com/ouuan",
+    "org": false
+  }
+]

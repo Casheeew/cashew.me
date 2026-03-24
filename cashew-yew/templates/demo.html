@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div>
+  <a
+    style="border:1px solid var(--c-border, #e5e7eb);border-radius:0.5rem;display:block;overflow:hidden;background:var(--c-bg);position:relative;transition:all 500ms"
+    href="{{ frontmatter.link | default(value='#') }}"
+    target="_blank"
+  >
+    {% if frontmatter.video %}
+    <video
+      src="{{ frontmatter.video }}"
+      style="width:100%;border-bottom:1px solid var(--c-border, #e5e7eb)"
+      autoplay loop muted playsinline
+    ></video>
+    {% endif %}
+
+    <div class="prose prose-sm" style="padding:1rem;margin:0;padding-bottom:0.75rem">
+      {{ content | safe }}
+      {% if frontmatter.date %}
+      <div style="opacity:0.5;font-size:0.875rem;padding-top:0.5rem">{{ frontmatter.date }}</div>
+      {% endif %}
+    </div>
+  </a>
+</div>
+{% endblock %}

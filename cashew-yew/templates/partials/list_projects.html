@@ -1,0 +1,88 @@
+<div class="max-w-250 mx-auto">
+  <p text-center mt--6 mb5 op50 text-lg italic>
+    What I've cooked on my own time.
+  </p>
+
+  <div class="prose pb5 mx-auto mt10 text-center">
+    <div flex="~ gap-2 justify-center">
+      <a href="https://github.com/Casheeew" target="_blank" class="group btn-blue inline-block">
+        <div i-ph-github-logo-duotone group-hover="i-ph-github-logo-fill text-blue"></div>
+        My GitHub
+      </a>
+    </div>
+    <hr>
+  </div>
+
+  {% for category_name, category in projects %}
+  <div slide-enter style="--enter-stage: {{ loop.index }}">
+    <div id="{{ category_name | lower | replace(from=' ', to='-') }}" select-none relative h18 mt10 mb8 pointer-events-none slide-enter style="--enter-stage: {{ loop.index - 2 }}; --enter-step: 60ms;">
+      <span text-5em color-transparent absolute left--1rem top-0rem font-bold leading-1em text-stroke-2 text-stroke-hex-888 op50 dark:op35>
+        {{ category_name }}
+      </span>
+    </div>
+
+    {% if category.subtitle %}
+    <div class="mt-2 mb8 op50 text-base">
+      {{ category.subtitle }}
+    </div>
+    {% endif %}
+
+    <div class="project-grid py-2 max-w-500 mx-auto" grid="~ cols-1 md:cols-2 gap-5 lg:cols-3">
+      {% for item in category.items %}
+      <a class="item relative flex flex-col{% if item.image or item.imageLight or item.imageDark %} has-image{% endif %}" href="{{ item.link }}" target="_blank" title="{{ item.name }}">
+        {% if item.image or item.imageLight or item.imageDark %}
+        <div class="project-image-wrapper">
+          {% if item.imageLight and item.imageDark %}
+          <img src="{{ item.imageLight }}" alt="{{ item.name }}" class="project-image dark:hidden">
+          <img src="{{ item.imageDark }}" alt="{{ item.name }}" class="project-image hidden dark:block">
+          {% elif item.image %}
+          <img src="{{ item.image }}" alt="{{ item.name }}" class="project-image">
+          {% endif %}
+        </div>
+        {% endif %}
+
+        <div class="project-content{% if item.image or item.imageLight or item.imageDark %} with-image{% endif %}">
+          <div class="flex items-center">
+            {% if item.icon %}
+            <div class="pr-3">
+              <div class="text-2xl opacity-80 {{ item.icon }}"></div>
+            </div>
+            {% endif %}
+            <div class="flex-auto">
+              <div class="text-normal">{{ item.name }}</div>
+            </div>
+          </div>
+          <div class="desc text-sm opacity-80 font-normal mt-1">{{ item.desc }}</div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+
+  <div class="prose pb5 mx-auto mt10 text-center">
+    <hr>
+  </div>
+</div>
+
+<div>
+  <div class="table-of-contents">
+    <div class="table-of-contents-anchor">
+      <div class="i-ri-menu-2-fill"></div>
+    </div>
+    <ul>
+      {% for category_name, category in projects %}
+      <li><a href="#{{ category_name | lower | replace(from=' ', to='-') }}">{{ category_name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="text-center mt-16 pt-8">
+    <p class="text-base text-gray-600 dark:text-gray-400">
+      I also write stuff in my free time.
+      <br>
+      Interested? Check out my
+      <a href="/posts" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">blog</a>.
+    </p>
+  </div>
+</div>
