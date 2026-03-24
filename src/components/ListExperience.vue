@@ -191,7 +191,7 @@ const sortedExperiences = computed(() => {
                     class="flex items-start gap-2 text-sm text-gray-600 dark:text-gray-400"
                   >
                     <span class="i-carbon-arrow-right text-sm mt-0.5 flex-shrink-0 text-gray-400 dark:text-gray-500" />
-                    <span>{{ highlight }}</span>
+                    <span v-html="highlight.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')" />
                   </li>
                 </ul>
 
