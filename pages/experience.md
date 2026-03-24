@@ -30,20 +30,25 @@ experience:
       - Deep Learning
       - Machine Learning
 
-  - duration: 12/2025 - 02/2026 (exp.)
+  - duration: 10/2025 - 02/2026
     type: work
-    title: Software Engineer Intern
-    org: BeringLab (Incoming)
+    title: Backend / Systems Engineer Intern
+    org: Bering Lab
     orgLink: https://beringlab.com
     location: Seoul, Republic of Korea
-    desc: Develop, test and scale APIs for BeringAI legal translation services.
+    desc: Core Product Team
+    highlights:
+      - Built and maintained cloud backend services in **Rust** on **Amazon EKS** for **high-volume text & document processing and translation** used by global enterprise clients.
+      - Built document parsers for OOXML (DOCX, XLSX, PPTX) with **improved segmentation and detection** of non-translatable text, **enabling efficient streaming processing** for file translations with full layout preservation.
+      - Reduced system overhead by **10× during traffic spikes** by designing adaptive request batching for file and text.
+      - Deployed and managed the system in Cloud and air-gapped On-Premise environments, ensuring reliable execution under strict infrastructure constraints.
     tech:
+      - Rust
+      - Amazon EKS
+      - Kubernetes
       - Backend Development
+      - Document Processing
       - API Integration
-      - Testing
-      - OCR
-      - AI Translation
-      - Python
 
   - duration: 02/2025 - 10/2025
     type: work
@@ -75,10 +80,8 @@ experience:
     location: Hanoi, Vietnam
     desc: Digital Footprint Team
     highlights:
-      - Developed an analytics web dashboard using React to visualize digital footprint data insights and deliver machine learning-driven decision making for fraud detection
-      - Formulated a decision forest model on digital footprints to catch suspicious activity
-      - Closely collaborated with a cross-functional team to bring the system from concept to deployment
-    impact: Reduced manual review times by 90%, detecting tens of thousands of suspicious activities per month
+      - Built a **full-stack fraud detection monitoring web app** in **Spring Boot** and **React**, enabling automated logging of digital footprints on millions of transactions for a major bank in Vietnam, **cutting review times by 90%**.
+      - Delivered the production-ready analytics app with automated decision-making within only 8 weeks in a team of 3.
     tech:
       - React
       - Machine Learning
